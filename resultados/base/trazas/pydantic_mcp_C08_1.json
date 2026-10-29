@@ -1,0 +1,284 @@
+{
+  "fila": {
+    "etiqueta": "base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C08",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "fallo_infraestructura",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 13.4943,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 4,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 12845,
+    "tokens_salida": 492,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2852,
+    "hallazgos_verificador": "",
+    "error": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  "pregunta": "Compara los sistemas A y B en español usando el corpus demo.",
+  "traza": [
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "listar_sistemas",
+      "contenido": {
+        "ok": true,
+        "corpus": "demo",
+        "idioma": "es",
+        "idioma_con_datos": true,
+        "sistemas": [
+          {
+            "sistema": "A",
+            "disponible": true,
+            "fila": "demo:es:A"
+          },
+          {
+            "sistema": "B",
+            "disponible": true,
+            "fila": "demo:es:B"
+          },
+          {
+            "sistema": "C",
+            "disponible": true,
+            "fila": "demo:es:C"
+          },
+          {
+            "sistema": "D",
+            "disponible": false,
+            "fila": null
+          }
+        ],
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones",
+        "error": null
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "sistema": "B",
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "estado": "disponible",
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A",
+        "fila_id": "demo:es:A",
+        "fila": {
+          "id": "demo:es:A",
+          "corpus": "demo",
+          "version": "v1",
+          "idioma": "es",
+          "sistema": "A",
+          "particion": "test",
+          "normalizacion": "minusculas_sin_puntuacion",
+          "referencia": "ref-es-v1",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11,
+          "comentario_externo": null,
+          "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+        },
+        "detalle": null,
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "estado": "datos_invalidos",
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B",
+        "fila_id": "demo:es:B",
+        "fila": null,
+        "detalle": "Conteos no válidos, no se calcula WER: N debe ser positivo (N=0).",
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_result_DatosInsuficientes",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistemas": [
+          "A",
+          "B"
+        ],
+        "estado": "datos_invalidos",
+        "motivo": "datos_invalidos",
+        "detalle": "El sistema B para el idioma español en el corpus demo tiene conteos inválidos (N=0), por lo que no se puede calcular su WER. No hay evidencia suficiente para comparar A y B.",
+        "fuentes": [
+          "demo:es:B"
+        ],
+        "pregunta_aclaracion": null
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "estado": "datos_invalidos",
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B",
+        "fila_id": "demo:es:B",
+        "fila": null,
+        "detalle": "Conteos no válidos, no se calcula WER: N debe ser positivo (N=0).",
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "reintento",
+      "nombre": "final_result_DatosInsuficientes",
+      "contenido": [
+        {
+          "type": "literal_error",
+          "loc": [
+            "estado"
+          ],
+          "msg": "Input should be 'datos_insuficientes'",
+          "input": "datos_invalidos"
+        }
+      ]
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "final_result_DatosInsuficientes({\"corpus\":\"demo\",\"detalle\":\"El sistema B para el idioma español en el corpus demo tiene conteos inválidos (N=0), por lo que no se puede calcular su WER. No hay evidencia suficiente para comparar A y B.\",\"estado\":\"datos_invalidos\",\"fuentes\":[\"demo:es:B\"],\"idioma\":\"es\",\"motivo\":\"datos_invalidos\",\"pregunta_aclaracion\":null,\"sistemas\":[\"A\",\"B\"]})"
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "final_result_DatosInsuficientes({\"corpus\": \"demo\", \"detalle\": \"El sistema B para el idioma español en el corpus demo tiene conteos inválidos (N=0), por lo que no se puede calcular su WER. No hay evidencia suficiente para comparar A y B.\", \"estado\": \"datos_invalidos\", \"fuentes\": [\"demo:es:B\"], \"idioma\": \"es\", \"motivo\": \"datos_invalidos\", \"pregunta_aclaracion\": null, \"sistemas\": [\"A\", \"B\"]})"
+    }
+  ],
+  "salida": null,
+  "eventos_auditoria": [
+    {
+      "ts": 1793194996.053756,
+      "origen": "servidor_mcp",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    },
+    {
+      "ts": 1793194997.8275802,
+      "origen": "servidor_mcp",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:es:A"
+      }
+    },
+    {
+      "ts": 1793194997.828496,
+      "origen": "servidor_mcp",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "datos_invalidos",
+        "codigo_error": null,
+        "fila_id": "demo:es:B"
+      }
+    },
+    {
+      "ts": 1793195001.7071807,
+      "origen": "servidor_mcp",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "datos_invalidos",
+        "codigo_error": null,
+        "fila_id": "demo:es:B"
+      }
+    }
+  ],
+  "extra": {
+    "arranque_mcp_s": 1.2852,
+    "politica_igual_a_local": true,
+    "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None"
+  }
+}

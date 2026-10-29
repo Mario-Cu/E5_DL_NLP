@@ -1,0 +1,326 @@
+{
+  "fila": {
+    "etiqueta": "base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "caso": "C03",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 24.5418,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14896,
+    "tokens_salida": 1011,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)"
+  },
+  "pregunta": "En el corpus demo y en español, ¿qué sistema es mejor, A o C?",
+  "traza": [
+    {
+      "tipo": "texto_modelo",
+      "contenido": "คณะกรรมการทำงานของคุณคือการเปรียบเทียบระบบการรับรู้เสียง (ASR) โดยใช้ WER สำหรับภาษาที่ระบุ คุณมีเครื่องมือสำหรับการอ่านอย่างเดียวสองเครื่องมือ: `listar_sistemas(corpus, idioma)` และ `obtener_resultados(corpus, idioma, sistema)` สำหรับเปรียบเทียบสองระบบในภาษาหนึ่ง: คุณควรจะขอ `obtener_resultados` ของแต่ละระบบ (คุณสามารถใช้ `listar_sistemas` ในการดูว่ามีอะไรบ้าง) และตัดสินใจโดยใช้หลักการที่กำหนด\n\nขออนุญาตดำเนินการเปรียบเทียบระบบ A และ C ในภาษาสเปนสำหรับ corpus 'demo' ครับ\n\n"
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "idioma": "es",
+        "corpus": "demo"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "sistema": "A",
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "C"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "listar_sistemas",
+      "contenido": {
+        "ok": true,
+        "corpus": "demo",
+        "idioma": "es",
+        "idioma_con_datos": true,
+        "sistemas": [
+          {
+            "sistema": "A",
+            "disponible": true,
+            "fila": "demo:es:A"
+          },
+          {
+            "sistema": "B",
+            "disponible": true,
+            "fila": "demo:es:B"
+          },
+          {
+            "sistema": "C",
+            "disponible": true,
+            "fila": "demo:es:C"
+          },
+          {
+            "sistema": "D",
+            "disponible": false,
+            "fila": null
+          }
+        ],
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones",
+        "error": null
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "estado": "disponible",
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A",
+        "fila_id": "demo:es:A",
+        "fila": {
+          "id": "demo:es:A",
+          "corpus": "demo",
+          "version": "v1",
+          "idioma": "es",
+          "sistema": "A",
+          "particion": "test",
+          "normalizacion": "minusculas_sin_puntuacion",
+          "referencia": "ref-es-v1",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11,
+          "comentario_externo": null,
+          "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+        },
+        "detalle": null,
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "estado": "disponible",
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "C",
+        "fila_id": "demo:es:C",
+        "fila": {
+          "id": "demo:es:C",
+          "corpus": "demo",
+          "version": "v1",
+          "idioma": "es",
+          "sistema": "C",
+          "particion": "test",
+          "normalizacion": "minusculas_sin_puntuacion",
+          "referencia": "ref-es-v1",
+          "s": 0,
+          "d": 0,
+          "i": 150,
+          "n": 100,
+          "wer": 1.5,
+          "comentario_externo": null,
+          "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+        },
+        "detalle": null,
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_result_Comparacion",
+      "argumentos": {
+        "medidas": [
+          {
+            "d": 2,
+            "fila": "demo:es:A",
+            "i": 1,
+            "n": 100,
+            "s": 8,
+            "sistema": "A",
+            "wer": 0.11
+          },
+          {
+            "d": 0,
+            "fila": "demo:es:C",
+            "i": 150,
+            "n": 100,
+            "s": 0,
+            "sistema": "C",
+            "wer": 1.5
+          }
+        ],
+        "resultado": "ganador",
+        "ganador": "A",
+        "fuentes": [
+          "demo:es:A",
+          "demo:es:C"
+        ],
+        "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones.",
+        "estado": "disponible",
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "reintento",
+      "nombre": "final_result_Comparacion",
+      "contenido": [
+        {
+          "type": "literal_error",
+          "loc": [
+            "estado"
+          ],
+          "msg": "Input should be 'comparacion'",
+          "input": "disponible"
+        }
+      ]
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "En el corpus 'demo' y en español, el sistema A es mejor que el sistema C. El WER del sistema A es 0.11, mientras que el WER del sistema C es 1.5. Esto significa que el sistema A tiene un rendimiento significativamente mejor en este caso.\n\nLimitaciones: Estos datos son sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Los conteos agregados son inventados y no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_result_Comparacion",
+      "argumentos": {
+        "idioma": "es",
+        "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones.",
+        "medidas": [
+          {
+            "d": 2,
+            "fila": "demo:es:A",
+            "i": 1,
+            "n": 100,
+            "s": 8,
+            "sistema": "A",
+            "wer": 0.11
+          },
+          {
+            "d": 0,
+            "fila": "demo:es:C",
+            "i": 150,
+            "n": 100,
+            "s": 0,
+            "sistema": "C",
+            "wer": 1.5
+          }
+        ],
+        "resultado": "ganador",
+        "corpus": "demo",
+        "estado": "disponible",
+        "fuentes": [
+          "demo:es:A",
+          "demo:es:C"
+        ],
+        "ganador": "A"
+      }
+    },
+    {
+      "tipo": "reintento",
+      "nombre": "final_result_Comparacion",
+      "contenido": [
+        {
+          "type": "literal_error",
+          "loc": [
+            "estado"
+          ],
+          "msg": "Input should be 'comparacion'",
+          "input": "disponible"
+        }
+      ]
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "El sistema A es mejor que el sistema C en el corpus 'demo' y en español. El WER del sistema A es 0.11, mientras que el WER del sistema C es 1.5.\n\nLimitaciones: Estos datos son sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Los conteos agregados son inventados y no proceden de ninguna evaluación real ni de grabaciones."
+    }
+  ],
+  "salida": null,
+  "eventos_auditoria": [
+    {
+      "ts": 1793194661.101877,
+      "origen": "pydantic_local",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    },
+    {
+      "ts": 1793194661.1021783,
+      "origen": "pydantic_local",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:es:A"
+      }
+    },
+    {
+      "ts": 1793194661.1024184,
+      "origen": "pydantic_local",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "C"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:es:C"
+      }
+    }
+  ],
+  "extra": {}
+}

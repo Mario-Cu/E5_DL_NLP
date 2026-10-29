@@ -1,0 +1,43 @@
+{
+  "etiqueta": "v2_base",
+  "modo": "real",
+  "variante": "base",
+  "modo_salida": "tool",
+  "fecha": "2026-10-28T15:10:19",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "sistema": "Windows-11-10.0.26300-SP0",
+  "versiones": {
+    "smolagents": "1.26.0",
+    "pydantic-ai-slim": "2.63.0",
+    "mcp": "2.3.0",
+    "fastmcp-slim": "4.1.4",
+    "litellm": "1.83.0",
+    "pydantic": "2.14.1",
+    "pytest": "9.2.0"
+  },
+  "modelo": {
+    "proveedor": "ollama",
+    "modelo": "qwen2.5-14b-asr",
+    "modelo_base": "qwen2.5:14b",
+    "url_base": "http://localhost:11434",
+    "temperatura": 0.2,
+    "num_ctx": 8192,
+    "semilla": 7
+  },
+  "limites": {
+    "solicitudes_modelo": 8,
+    "llamadas_herramienta": 10,
+    "reintentos_salida": 2,
+    "pasos_smolagents": 8,
+    "reintentos_transporte": 2,
+    "tiempo_herramienta_s": 20.0,
+    "plazo_total_s": 180.0,
+    "espera_inicial_s": 0.5
+  },
+  "casos_sha256": "25875fff3fb19dd6344efabdf785518b003d38b40baf35a3dd8d0a70981ba4e2",
+  "politica_sha256": "0a0f64b18cb3430dc2b16789c728fd58cbd6e75ec6853b4837aff68f4fd4ef6e",
+  "revision_protocolo_mcp_negociada": "2026-07-28",
+  "transporte_mcp": "stdio (subproceso)",
+  "defecto_inyectado": null,
+  "nota": "Las filas con modo=doble prueban integración; no son resultados de ningún LLM."
+}

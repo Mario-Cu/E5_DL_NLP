@@ -1,0 +1,130 @@
+{
+  "fila": {
+    "etiqueta": "v2_verificada",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "verificada",
+    "modo_salida": "n/a",
+    "caso": "C05",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "idioma_sin_resultados",
+    "tiempo_total_s": 6.316,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 1,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19710,
+    "tokens_salida": 232,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": ""
+  },
+  "pregunta": "Compara los sistemas A y B en francés usando el corpus demo.",
+  "traza": [
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "fr"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "contenido": "{\"ok\":true,\"corpus\":\"demo\",\"idioma\":\"fr\",\"idioma_con_datos\":false,\"sistemas\":[{\"sistema\":\"A\",\"disponible\":false,\"fila\":null},{\"sistema\":\"B\",\"disponible\":false,\"fila\":null},{\"sistema\":\"C\",\"disponible\":false,\"fila\":null},{\"sistema\":\"D\",\"disponible\":false,\"fila\":null}],\"procedencia\":\"datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones\",\"error\":null}"
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_answer",
+      "argumentos": {
+        "answer": {
+          "detalle": "No hay resultados para el idioma francés en el corpus demo.",
+          "estado": "datos_insuficientidos",
+          "fuentes": [],
+          "motivo": "idioma_sin_resultados"
+        }
+      }
+    },
+    {
+      "tipo": "reintento",
+      "contenido": "Check comprobar_esquema failed with error: La respuesta no cumple el esquema: : Input tag 'datos_insuficientidos' found using 'estado' does not match any of the expected tags: 'comparacion', 'datos_insuficientes'"
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_answer",
+      "argumentos": {
+        "answer": {
+          "detalle": "No hay resultados para el idioma francés en el corpus demo.",
+          "estado": "datos_insuficientes",
+          "fuentes": [],
+          "motivo": "idioma_sin_resultados"
+        }
+      }
+    },
+    {
+      "tipo": "reintento",
+      "contenido": "Check comprobar_esquema failed with error: La respuesta no cumple el esquema: datos_insuficientes: Value error, motivo idioma_sin_resultados: indica `corpus` e `idioma` consultados"
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_answer",
+      "argumentos": {
+        "answer": {
+          "corpus": "demo",
+          "detalle": "No hay resultados para el idioma francés en el corpus demo.",
+          "estado": "datos_insuficientes",
+          "fuentes": [],
+          "idioma": "fr",
+          "motivo": "idioma_sin_resultados"
+        }
+      }
+    },
+    {
+      "tipo": "observacion",
+      "contenido": "{'corpus': 'demo', 'detalle': 'No hay resultados para el idioma francés en el corpus demo.', 'estado': 'datos_insuficientes', 'fuentes': [], 'idioma': 'fr', 'motivo': 'idioma_sin_resultados'}"
+    }
+  ],
+  "salida": {
+    "estado": "datos_insuficientes",
+    "motivo": "idioma_sin_resultados",
+    "corpus": "demo",
+    "idioma": "fr",
+    "sistemas": [],
+    "faltante": [],
+    "detalle": "No hay resultados para el idioma francés en el corpus demo.",
+    "fuentes": [],
+    "pregunta_aclaracion": null
+  },
+  "eventos_auditoria": [
+    {
+      "ts": 1793197725.2664444,
+      "origen": "smolagents",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "fr"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    }
+  ],
+  "extra": {}
+}

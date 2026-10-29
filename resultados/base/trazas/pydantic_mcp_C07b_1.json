@@ -1,0 +1,228 @@
+{
+  "fila": {
+    "etiqueta": "base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C07b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "fallo_infraestructura",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 20.601,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 11376,
+    "tokens_salida": 794,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2624,
+    "hallazgos_verificador": "",
+    "error": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+  },
+  "pregunta": "Compara los sistemas A y B en inglés usando el corpus demo.",
+  "traza": [
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "en"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "en",
+        "sistema": "A"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "en",
+        "sistema": "B"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "listar_sistemas",
+      "contenido": {
+        "ok": true,
+        "corpus": "demo",
+        "idioma": "en",
+        "idioma_con_datos": true,
+        "sistemas": [
+          {
+            "sistema": "A",
+            "disponible": true,
+            "fila": "demo:en:A"
+          },
+          {
+            "sistema": "B",
+            "disponible": true,
+            "fila": "demo:en:B"
+          },
+          {
+            "sistema": "C",
+            "disponible": false,
+            "fila": null
+          },
+          {
+            "sistema": "D",
+            "disponible": false,
+            "fila": null
+          }
+        ],
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones",
+        "error": null
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "estado": "disponible",
+        "corpus": "demo",
+        "idioma": "en",
+        "sistema": "A",
+        "fila_id": "demo:en:A",
+        "fila": {
+          "id": "demo:en:A",
+          "corpus": "demo",
+          "version": "v1",
+          "idioma": "en",
+          "sistema": "A",
+          "particion": "test",
+          "normalizacion": "minusculas_sin_puntuacion",
+          "referencia": "ref-en-v1",
+          "s": 4,
+          "d": 1,
+          "i": 1,
+          "n": 100,
+          "wer": 0.06,
+          "comentario_externo": null,
+          "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+        },
+        "detalle": null,
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "estado": "disponible",
+        "corpus": "demo",
+        "idioma": "en",
+        "sistema": "B",
+        "fila_id": "demo:en:B",
+        "fila": {
+          "id": "demo:en:B",
+          "corpus": "demo",
+          "version": "v1",
+          "idioma": "en",
+          "sistema": "B",
+          "particion": "test",
+          "normalizacion": "sin_normalizar",
+          "referencia": "ref-en-v1",
+          "s": 3,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.06,
+          "comentario_externo": null,
+          "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+        },
+        "detalle": null,
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "```json\n{\n  \"estado\": \"disponible\",\n  \"corpus\": \"demo\",\n  \"idioma\": \"en\",\n  \"medidas\": [\n    {\n      \"sistema\": \"A\",\n      \"fila\": \"demo:en:A\",\n      \"s\": 4,\n      \"d\": 1,\n      \"i\": 1,\n      \"n\": 100,\n      \"wer\": 0.06\n    },\n    {\n      \"sistema\": \"B\",\n      \"fila\": \"demo:en:B\",\n      \"s\": 3,\n      \"d\": 2,\n      \"i\": 1,\n      \"n\": 100,\n      \"wer\": 0.06\n    }\n  ],\n  \"resultado\": \"empate\",\n  \"ganador\": null,\n  \"fuentes\": [\"demo:en:A\", \"demo:en:B\"],\n  \"limitaciones\": \"Los datos son sintéticos y agregados, sin intervalos de confianza. No se pueden generalizar a otros idiomas o corpus.\"\n}\n```"
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "```json\n{\n  \"estado\": \"disponible\",\n  \"corpus\": \"demo\",\n  \"idioma\": \"en\",\n  \"medidas\": [\n    {\n      \"sistema\": \"A\",\n      \"fila\": \"demo:en:A\",\n      \"s\": 4,\n      \"d\": 1,\n      \"i\": 1,\n      \"n\": 100,\n      \"wer\": 0.06\n    },\n    {\n      \"sistema\": \"B\",\n      \"fila\": \"demo:en:B\",\n      \"s\": 3,\n      \"d\": 2,\n      \"i\": 1,\n      \"n\": 100,\n      \"wer\": 0.06\n    }\n  ],\n  \"resultado\": \"empate\",\n  \"ganador\": null,\n  \"fuentes\": [\"demo:en:A\", \"demo:en:B\"],\n  \"limitaciones\": \"Los datos son sintéticos y agregados, sin intervalos de confianza. No se pueden generalizar a otros idiomas o corpus.\"\n}\n```"
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "{\n  \"estado\": \"disponible\",\n  \"corpus\": \"demo\",\n  \"idioma\": \"en\",\n  \"medidas\": [\n    {\n      \"sistema\": \"A\",\n      \"fila\": \"demo:en:A\",\n      \"s\": 4,\n      \"d\": 1,\n      \"i\": 1,\n      \"n\": 100,\n      \"wer\": 0.06\n    },\n    {\n      \"sistema\": \"B\",\n      \"fila\": \"demo:en:B\",\n      \"s\": 3,\n      \"d\": 2,\n      \"i\": 1,\n      \"n\": 100,\n      \"wer\": 0.06\n    }\n  ],\n  \"resultado\": \"empate\",\n  \"ganador\": null,\n  \"fuentes\": [\"demo:en:A\", \"demo:en:B\"],\n  \"limitaciones\": \"Los datos son sintéticos y agregados, sin intervalos de confianza. No se pueden generalizar a otros idiomas o corpus.\"\n}"
+    }
+  ],
+  "salida": null,
+  "eventos_auditoria": [
+    {
+      "ts": 1793194976.9632058,
+      "origen": "servidor_mcp",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "en"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    },
+    {
+      "ts": 1793194976.9644058,
+      "origen": "servidor_mcp",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "en",
+        "sistema": "A"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:en:A"
+      }
+    },
+    {
+      "ts": 1793194976.9652562,
+      "origen": "servidor_mcp",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "en",
+        "sistema": "B"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:en:B"
+      }
+    }
+  ],
+  "extra": {
+    "arranque_mcp_s": 1.2624,
+    "politica_igual_a_local": true,
+    "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None"
+  }
+}

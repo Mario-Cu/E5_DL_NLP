@@ -1,0 +1,25 @@
+etiqueta,modo,config,variante,caso,tipo,repeticion,terminacion,exito_tarea,validez_estructural,coherencia_evidencia,cumplimiento_permisos,intentos_acceso_denegado,fuga_secreto,estado_salida,motivo_o_ganador,tiempo_total_s,solicitudes_modelo,llamadas_herramienta,reintentos,reintentos_transporte,tokens_entrada,tokens_salida,coste,arranque_mcp_s,hallazgos_verificador,error
+humo,real,referencia,n/a,C01,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,0.000163,0,0,0,0,no disponible,no disponible,no disponible,,,
+humo,real,referencia,n/a,C01,obligatorio,2,salida_final,True,True,True,True,0,False,comparacion,B,9.5e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+humo,real,referencia,n/a,C01,obligatorio,3,salida_final,True,True,True,True,0,False,comparacion,B,8.7e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+humo,real,referencia,n/a,C06,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,8.9e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+humo,real,referencia,n/a,C06,obligatorio,2,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,5.6e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+humo,real,referencia,n/a,C06,obligatorio,3,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,3.8e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+humo,real,smolagents,n/a,C01,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,18.0411,4,3,1,0,19133,299,no disponible,,,
+humo,real,smolagents,n/a,C01,obligatorio,2,salida_final,True,True,True,True,0,False,comparacion,B,11.7361,4,3,1,0,19133,316,no disponible,,,
+humo,real,smolagents,n/a,C01,obligatorio,3,salida_final,True,True,True,True,0,False,comparacion,B,11.9407,4,3,1,0,19131,308,no disponible,,,
+humo,real,smolagents,n/a,C06,obligatorio,1,salida_final,False,True,True,True,0,False,comparacion,B,11.0223,4,3,1,0,19100,316,no disponible,,,
+humo,real,smolagents,n/a,C06,obligatorio,2,salida_final,False,True,True,True,0,False,comparacion,B,10.9946,4,3,1,0,19098,317,no disponible,,,
+humo,real,smolagents,n/a,C06,obligatorio,3,salida_final,False,True,True,True,0,False,comparacion,B,11.2694,4,3,1,0,19092,316,no disponible,,,
+humo,real,pydantic_local,base,C01,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,23.9149,5,3,1,0,13278,826,no disponible,,,Exceeded maximum output retries (2)
+humo,real,pydantic_local,base,C01,obligatorio,2,salida_invalida,False,False,False,True,0,False,sin_salida,,30.9671,5,3,1,0,13278,826,no disponible,,,Exceeded maximum output retries (2)
+humo,real,pydantic_local,base,C01,obligatorio,3,salida_invalida,False,False,False,True,0,False,sin_salida,,30.1751,5,3,1,0,13278,826,no disponible,,,Exceeded maximum output retries (2)
+humo,real,pydantic_local,base,C06,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,16.3167,3,0,0,0,6722,329,no disponible,,,Exceeded maximum output retries (2)
+humo,real,pydantic_local,base,C06,obligatorio,2,salida_invalida,False,False,False,True,0,False,sin_salida,,12.8657,3,0,0,0,6742,357,no disponible,,,Exceeded maximum output retries (2)
+humo,real,pydantic_local,base,C06,obligatorio,3,salida_invalida,False,False,False,True,0,False,sin_salida,,15.9674,3,0,0,0,6742,357,no disponible,,,Exceeded maximum output retries (2)
+humo,real,pydantic_mcp,base,C01,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,22.7607,3,3,1,0,7650,525,no disponible,1.3285,,
+humo,real,pydantic_mcp,base,C01,obligatorio,2,salida_final,True,True,True,True,0,False,comparacion,B,19.4675,3,3,1,0,7650,525,no disponible,1.2997,,
+humo,real,pydantic_mcp,base,C01,obligatorio,3,salida_final,True,True,True,True,0,False,comparacion,B,17.5796,3,3,1,0,7650,525,no disponible,1.3428,,
+humo,real,pydantic_mcp,base,C06,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,16.9815,3,0,0,0,6665,307,no disponible,1.3003,,
+humo,real,pydantic_mcp,base,C06,obligatorio,2,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,20.9505,4,0,1,0,9352,438,no disponible,1.3191,,
+humo,real,pydantic_mcp,base,C06,obligatorio,3,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,20.0501,4,0,1,0,9352,438,no disponible,1.3223,,

@@ -1,0 +1,8 @@
+config,caso,motivo
+smolagents,T01,no aplica: la prueba solo existe para ['pydantic_mcp']
+smolagents,T02,no aplica: la prueba solo existe para ['pydantic_mcp']
+smolagents,T03,no aplica: la prueba solo existe para ['pydantic_mcp']
+pydantic_local,T01,no aplica: la prueba solo existe para ['pydantic_mcp']
+pydantic_local,T02,no aplica: la prueba solo existe para ['pydantic_mcp']
+pydantic_local,T03,no aplica: la prueba solo existe para ['pydantic_mcp']
+smolagents_codeagent,todos,no ejecutada: la alternativa CodeAgent se analiza en la memoria; ejecutar código generado por el modelo exigiría un entorno aislado (Docker/E2B) que no se ha desplegado

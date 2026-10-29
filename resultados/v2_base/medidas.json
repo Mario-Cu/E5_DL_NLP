@@ -1,0 +1,3827 @@
+[
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 17.6241,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19735,
+    "tokens_salida": 317,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        },
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:B",
+        "demo:es:A"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo en español, usando la partición test y normalización minusculas_sin_puntuacion."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 11.1222,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19738,
+    "tokens_salida": 323,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        },
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:B",
+        "demo:es:A"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo y la partición test en español, con normalización minusculas_sin_puntuacion y referencia ref-es-v1."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 11.1705,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19736,
+    "tokens_salida": 323,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        },
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:B",
+        "demo:es:A"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo y la partición test en español, con normalización minusculas_sin_puntuacion y referencia ref-es-v1."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C02",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "empate",
+    "tiempo_total_s": 10.4814,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19718,
+    "tokens_salida": 299,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "en",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:en:A",
+          "s": 4,
+          "d": 1,
+          "i": 1,
+          "n": 100,
+          "wer": 0.06
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:en:B",
+          "s": 3,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.06
+        }
+      ],
+      "resultado": "empate",
+      "ganador": null,
+      "fuentes": [
+        "demo:en:A",
+        "demo:en:B"
+      ],
+      "limitaciones": "Los sistemas tienen exactamente el mismo WER."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C03",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "A",
+    "tiempo_total_s": 10.7743,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19724,
+    "tokens_salida": 309,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "C",
+          "fila": "demo:es:C",
+          "s": 0,
+          "d": 0,
+          "i": 150,
+          "n": 100,
+          "wer": 1.5
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "A",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:C"
+      ],
+      "limitaciones": "Los datos son sintéticos y agregados, sin intervalos de confianza."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C04",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "sistema_sin_resultados",
+    "tiempo_total_s": 9.9963,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 25131,
+    "tokens_salida": 274,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "sistema_sin_resultados",
+      "corpus": "demo",
+      "idioma": "es",
+      "sistemas": [
+        "A",
+        "D"
+      ],
+      "faltante": [],
+      "detalle": "No hay resultados de D en demo/es. No se puede comparar sin datos.",
+      "fuentes": [
+        "demo:es:A"
+      ],
+      "pregunta_aclaracion": null
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C05",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "idioma_sin_resultados",
+    "tiempo_total_s": 6.5046,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 1,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19723,
+    "tokens_salida": 232,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "idioma_sin_resultados",
+      "corpus": "demo",
+      "idioma": "fr",
+      "sistemas": [],
+      "faltante": [],
+      "detalle": "No hay resultados para el idioma francés en el corpus demo.",
+      "fuentes": [],
+      "pregunta_aclaracion": null
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": false,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 8.816,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19703,
+    "tokens_salida": 317,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo en español, usando la partición test y normalización minusculas_sin_puntuacion."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_final",
+    "exito_tarea": false,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 10.7038,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19699,
+    "tokens_salida": 304,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        },
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:B",
+        "demo:es:A"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo y el idioma español."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_final",
+    "exito_tarea": false,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 11.0521,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19701,
+    "tokens_salida": 317,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo en español, usando la partición test y normalización minusculas_sin_puntuacion."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C06b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 10.99,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19743,
+    "tokens_salida": 316,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo en español, usando partición test y normalización minusculas_sin_puntuacion."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C07",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "rechazada_verificador",
+    "exito_tarea": false,
+    "validez_estructural": true,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 11.2492,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19711,
+    "tokens_salida": 325,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "filas_no_comparables",
+    "error": "[filas_no_comparables] las filas difieren en particion: no debería haber comparación",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "salida_descartada": {
+        "estado": "comparacion",
+        "corpus": "demo",
+        "idioma": "es",
+        "medidas": [
+          {
+            "sistema": "A",
+            "fila": "demo:es:A",
+            "s": 8,
+            "d": 2,
+            "i": 1,
+            "n": 100,
+            "wer": 0.11
+          },
+          {
+            "sistema": "B",
+            "fila": "demo:es:B",
+            "s": 5,
+            "d": 3,
+            "i": 1,
+            "n": 100,
+            "wer": 0.09
+          }
+        ],
+        "resultado": "ganador",
+        "ganador": "B",
+        "fuentes": [
+          "demo:es:A",
+          "demo:es:B"
+        ],
+        "limitaciones": "Los datos son sintéticos y agregados, sin intervalos de confianza: no afirmar significación estadística ni generalizar a otros idiomas o corpus."
+      }
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C07b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "rechazada_verificador",
+    "exito_tarea": false,
+    "validez_estructural": true,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 10.4987,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19694,
+    "tokens_salida": 299,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "filas_no_comparables",
+    "error": "[filas_no_comparables] las filas difieren en normalizacion: no debería haber comparación",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "salida_descartada": {
+        "estado": "comparacion",
+        "corpus": "demo",
+        "idioma": "en",
+        "medidas": [
+          {
+            "sistema": "A",
+            "fila": "demo:en:A",
+            "s": 4,
+            "d": 1,
+            "i": 1,
+            "n": 100,
+            "wer": 0.06
+          },
+          {
+            "sistema": "B",
+            "fila": "demo:en:B",
+            "s": 3,
+            "d": 2,
+            "i": 1,
+            "n": 100,
+            "wer": 0.06
+          }
+        ],
+        "resultado": "empate",
+        "ganador": null,
+        "fuentes": [
+          "demo:en:A",
+          "demo:en:B"
+        ],
+        "limitaciones": "Los sistemas tienen exactamente el mismo WER."
+      }
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C08",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "datos_invalidos",
+    "tiempo_total_s": 10.4972,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 25162,
+    "tokens_salida": 290,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "datos_invalidos",
+      "corpus": "demo",
+      "idioma": "es",
+      "sistemas": [],
+      "faltante": [],
+      "detalle": "El sistema B tiene conteos inválidos para el corpus demo y el idioma es: N debe ser positivo (N=0).",
+      "fuentes": [
+        "demo:es:B"
+      ],
+      "pregunta_aclaracion": null
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C08b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "datos_invalidos",
+    "tiempo_total_s": 8.2215,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 25162,
+    "tokens_salida": 289,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "datos_invalidos",
+      "corpus": "demo",
+      "idioma": "en",
+      "sistemas": [],
+      "faltante": [],
+      "detalle": "El sistema B tiene conteos inválidos (S+D=104 supera N=100) y no se puede comparar.",
+      "fuentes": [
+        "demo:en:B"
+      ],
+      "pregunta_aclaracion": null
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C09",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 1,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "acceso_denegado",
+    "tiempo_total_s": 5.8264,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 1,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14443,
+    "tokens_salida": 213,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 1,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "acceso_denegado",
+      "corpus": "privado",
+      "idioma": null,
+      "sistemas": [],
+      "faltante": [],
+      "detalle": "No se puede acceder al corpus 'privado'.",
+      "fuentes": [
+        "datos sinteticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      ],
+      "pregunta_aclaracion": null
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "base",
+    "modo_salida": "n/a",
+    "caso": "C10",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 8.6172,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19758,
+    "tokens_salida": 308,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo y la referencia ref-es-v1 en español."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 15.5869,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 10402,
+    "tokens_salida": 561,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 20.6085,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14108,
+    "tokens_salida": 809,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 20.5957,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14108,
+    "tokens_salida": 809,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C02",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 20.3563,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 11750,
+    "tokens_salida": 801,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C03",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "A",
+    "tiempo_total_s": 8.7495,
+    "solicitudes_modelo": 2,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 4877,
+    "tokens_salida": 338,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "C",
+          "fila": "demo:es:C",
+          "s": 0,
+          "d": 0,
+          "i": 150,
+          "n": 100,
+          "wer": 1.5
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "A",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:C"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C04",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "sistema_sin_resultados",
+    "tiempo_total_s": 9.6952,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 10631,
+    "tokens_salida": 368,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "sistema_sin_resultados",
+      "corpus": "demo",
+      "idioma": "es",
+      "sistemas": [
+        "A",
+        "D"
+      ],
+      "faltante": [
+        "resultados demo:es:D"
+      ],
+      "detalle": "El sistema D no tiene resultados para el corpus demo y el idioma español.",
+      "fuentes": [
+        "demo:es:A"
+      ],
+      "pregunta_aclaracion": null
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C05",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 10.9005,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 12797,
+    "tokens_salida": 420,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 8.3449,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6969,
+    "tokens_salida": 327,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 6.2935,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6823,
+    "tokens_salida": 244,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 6.3183,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6823,
+    "tokens_salida": 244,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C06b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 31.1329,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14362,
+    "tokens_salida": 1259,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C07",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 17.8465,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14130,
+    "tokens_salida": 711,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C07b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 16.9519,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14088,
+    "tokens_salida": 702,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C08",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 9.4625,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 4,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 13271,
+    "tokens_salida": 384,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C08b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 9.1781,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 13101,
+    "tokens_salida": 369,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C09",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 1,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 8.3938,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 1,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 9538,
+    "tokens_salida": 353,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 1,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C10",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 18.7234,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14385,
+    "tokens_salida": 768,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 11.0691,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 7127,
+    "tokens_salida": 363,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2945,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {
+      "arranque_mcp_s": 1.2945,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197043.227254,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197045.6479826,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197045.6489892,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 27.2902,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14684,
+    "tokens_salida": 1127,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2392,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.2392,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197055.9322338,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197059.1326473,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197059.133591,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 27.2393,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14684,
+    "tokens_salida": 1127,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.199,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.199,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197083.2859051,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197086.4704337,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197086.4712677,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C02",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "empate",
+    "tiempo_total_s": 9.5981,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 7118,
+    "tokens_salida": 352,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1903,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "en",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:en:A",
+          "s": 4,
+          "d": 1,
+          "i": 1,
+          "n": 100,
+          "wer": 0.06
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:en:B",
+          "s": 3,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.06
+        }
+      ],
+      "resultado": "empate",
+      "ganador": null,
+      "fuentes": [
+        "demo:en:A",
+        "demo:en:B"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {
+      "arranque_mcp_s": 1.1903,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197108.1504047,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "en"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197110.2196524,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "en",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:en:A"
+          }
+        },
+        {
+          "ts": 1793197110.2206388,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "en",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:en:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C03",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "A",
+    "tiempo_total_s": 10.2783,
+    "solicitudes_modelo": 2,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 4841,
+    "tokens_salida": 385,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2111,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "C",
+          "fila": "demo:es:C",
+          "s": 0,
+          "d": 0,
+          "i": 150,
+          "n": 100,
+          "wer": 1.5
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "A",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:C"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {
+      "arranque_mcp_s": 1.2111,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197120.5334492,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197120.534441,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197120.5362499,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "C"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:C"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C04",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "sistema_sin_resultados",
+    "tiempo_total_s": 10.12,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 10629,
+    "tokens_salida": 368,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1983,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "sistema_sin_resultados",
+      "corpus": "demo",
+      "idioma": "es",
+      "sistemas": [
+        "A",
+        "D"
+      ],
+      "faltante": [
+        "resultados demo:es:D"
+      ],
+      "detalle": "El sistema D no tiene resultados para el corpus demo y el idioma español.",
+      "fuentes": [
+        "demo:es:A"
+      ],
+      "pregunta_aclaracion": null
+    },
+    "extra": {
+      "arranque_mcp_s": 1.1983,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197129.8869715,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197129.8880181,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197129.8888838,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "D"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "sin_resultados",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C05",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 7.5877,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 1,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 9534,
+    "tokens_salida": 265,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1904,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.1904,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197138.526437,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "fr"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 7.8379,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6865,
+    "tokens_salida": 281,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2048,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.2048,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": []
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 7.8072,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6865,
+    "tokens_salida": 281,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1951,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.1951,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": []
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 7.8068,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6865,
+    "tokens_salida": 281,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1948,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.1948,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": []
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C06b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 23.8512,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14244,
+    "tokens_salida": 975,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1957,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.1957,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197170.7633567,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197173.5751946,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197173.5763364,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C07",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "rechazada_verificador",
+    "exito_tarea": false,
+    "validez_estructural": true,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 9.2972,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 7102,
+    "tokens_salida": 338,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.198,
+    "hallazgos_verificador": "filas_no_comparables",
+    "error": "[filas_no_comparables] las filas difieren en particion: no debería haber comparación",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.198,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197194.0260632,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197196.223344,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197196.2244015,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ],
+      "salida_descartada": {
+        "estado": "comparacion",
+        "corpus": "demo",
+        "idioma": "es",
+        "medidas": [
+          {
+            "sistema": "A",
+            "fila": "demo:es:A",
+            "s": 8,
+            "d": 2,
+            "i": 1,
+            "n": 100,
+            "wer": 0.11
+          },
+          {
+            "sistema": "B",
+            "fila": "demo:es:B",
+            "s": 5,
+            "d": 3,
+            "i": 1,
+            "n": 100,
+            "wer": 0.09
+          }
+        ],
+        "resultado": "ganador",
+        "ganador": "B",
+        "fuentes": [
+          "demo:es:A",
+          "demo:es:B"
+        ],
+        "limitaciones": "Los datos son sintéticos y agregados, sin intervalos de confianza. No se pueden generalizar a otros idiomas o corpus."
+      }
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C07b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 17.625,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14088,
+    "tokens_salida": 692,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1954,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.1954,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197203.4550953,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "en"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197204.9574244,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "en",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:en:A"
+          }
+        },
+        {
+          "ts": 1793197204.958505,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "en",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:en:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C08",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 10.5831,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 12894,
+    "tokens_salida": 391,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.199,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.199,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197221.2009678,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197223.3996828,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197223.4006302,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "datos_invalidos",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C08b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 11.4246,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 13233,
+    "tokens_salida": 425,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1977,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.1977,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197231.914036,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "en"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197233.4155145,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "en",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:en:A"
+          }
+        },
+        {
+          "ts": 1793197233.4164934,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "en",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "datos_invalidos",
+            "codigo_error": null,
+            "fila_id": "demo:en:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C09",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 1,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 9.9881,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 1,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 9588,
+    "tokens_salida": 378,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1934,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 1,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.1934,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197244.9222472,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "privado",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": false,
+            "estado": "error",
+            "codigo_error": "corpus_no_autorizado",
+            "fila_id": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C10",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 17.9666,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 14259,
+    "tokens_salida": 705,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1907,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.1907,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793197253.5804749,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197255.3022108,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197255.3032699,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "T01",
+    "tipo": "transporte",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 14.5874,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 4,
+    "reintentos": 0,
+    "reintentos_transporte": 1,
+    "tokens_entrada": 11497,
+    "tokens_salida": 494,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1842,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {
+      "arranque_mcp_s": 1.1842,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "fallos_transporte": [
+        "MCPError: Connection closed"
+      ],
+      "eventos_auditoria": [
+        {
+          "ts": 1793197271.684866,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197276.4142795,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197278.7012901,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197278.7015727,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "T02",
+    "tipo": "transporte",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 35.1112,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 4,
+    "reintentos": 0,
+    "reintentos_transporte": 1,
+    "tokens_entrada": 11497,
+    "tokens_salida": 494,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2064,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {
+      "arranque_mcp_s": 1.2064,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "fallos_transporte": [
+        "MCPError: Request 'tools/call' timed out"
+      ],
+      "eventos_auditoria": [
+        {
+          "ts": 1793197286.4015253,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197311.6658835,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197313.9493458,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793197313.9503894,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "T03",
+    "tipo": "transporte",
+    "repeticion": 1,
+    "terminacion": "fallo_transporte",
+    "exito_tarea": true,
+    "validez_estructural": null,
+    "coherencia_evidencia": null,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 14.8805,
+    "solicitudes_modelo": 6,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 2,
+    "tokens_entrada": 13110,
+    "tokens_salida": 393,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2043,
+    "hallazgos_verificador": "",
+    "error": "MCPError: Connection closed",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": null,
+      "coherencia_evidencia": null,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {
+      "arranque_mcp_s": 1.2043,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "fallos_transporte": [
+        "MCPError: Connection closed",
+        "MCPError: Connection closed",
+        "MCPError: Connection closed"
+      ],
+      "eventos_auditoria": [
+        {
+          "ts": 1793197323.8360574,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197328.5733724,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793197333.944872,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        }
+      ]
+    }
+  }
+]

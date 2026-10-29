@@ -1,0 +1,235 @@
+{
+  "fila": {
+    "etiqueta": "integracion_defecto_wer_falso",
+    "modo": "doble",
+    "config": "pydantic_local",
+    "variante": "verificada",
+    "modo_salida": "prompted",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 0.015,
+    "solicitudes_modelo": 6,
+    "llamadas_herramienta": 3,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": "no disponible",
+    "tokens_salida": "no disponible",
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)"
+  },
+  "pregunta": "Compara los sistemas A y B en español usando el corpus demo. ¿Cuál reconoce mejor?",
+  "traza": [
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "listar_sistemas",
+      "contenido": {
+        "ok": true,
+        "corpus": "demo",
+        "idioma": "es",
+        "idioma_con_datos": true,
+        "sistemas": [
+          {
+            "sistema": "A",
+            "disponible": true,
+            "fila": "demo:es:A"
+          },
+          {
+            "sistema": "B",
+            "disponible": true,
+            "fila": "demo:es:B"
+          },
+          {
+            "sistema": "C",
+            "disponible": true,
+            "fila": "demo:es:C"
+          },
+          {
+            "sistema": "D",
+            "disponible": false,
+            "fila": null
+          }
+        ],
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones",
+        "error": null
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "disponibilidad": "disponible",
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A",
+        "fila_id": "demo:es:A",
+        "fila": {
+          "id": "demo:es:A",
+          "corpus": "demo",
+          "version": "v1",
+          "idioma": "es",
+          "sistema": "A",
+          "particion": "test",
+          "normalizacion": "minusculas_sin_puntuacion",
+          "referencia": "ref-es-v1",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11,
+          "comentario_externo": null,
+          "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+        },
+        "detalle": null,
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "disponibilidad": "disponible",
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B",
+        "fila_id": "demo:es:B",
+        "fila": {
+          "id": "demo:es:B",
+          "corpus": "demo",
+          "version": "v1",
+          "idioma": "es",
+          "sistema": "B",
+          "particion": "test",
+          "normalizacion": "minusculas_sin_puntuacion",
+          "referencia": "ref-es-v1",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09,
+          "comentario_externo": null,
+          "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+        },
+        "detalle": null,
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "{\"estado\": \"comparacion\", \"corpus\": \"demo\", \"idioma\": \"es\", \"medidas\": [{\"sistema\": \"A\", \"fila\": \"demo:es:A\", \"s\": 8, \"d\": 2, \"i\": 1, \"n\": 100, \"wer\": 0.11}, {\"sistema\": \"B\", \"fila\": \"demo:es:B\", \"s\": 5, \"d\": 3, \"i\": 1, \"n\": 100, \"wer\": 0.19}], \"resultado\": \"ganador\", \"ganador\": \"B\", \"fuentes\": [\"demo:es:A\", \"demo:es:B\"], \"limitaciones\": \"Datos sintéticos y agregados; sin intervalos de confianza ni significación estadística.\"}"
+    },
+    {
+      "tipo": "reintento",
+      "nombre": "salida_texto",
+      "contenido": "La salida no coincide con la evidencia de las herramientas: [wer_incorrecto] B: WER declarado 0.19 y recalculado 0.0900. Corrígela usando solo los datos devueltos por las herramientas."
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "{\"estado\": \"comparacion\", \"corpus\": \"demo\", \"idioma\": \"es\", \"medidas\": [{\"sistema\": \"A\", \"fila\": \"demo:es:A\", \"s\": 8, \"d\": 2, \"i\": 1, \"n\": 100, \"wer\": 0.11}, {\"sistema\": \"B\", \"fila\": \"demo:es:B\", \"s\": 5, \"d\": 3, \"i\": 1, \"n\": 100, \"wer\": 0.19}], \"resultado\": \"ganador\", \"ganador\": \"B\", \"fuentes\": [\"demo:es:A\", \"demo:es:B\"], \"limitaciones\": \"Datos sintéticos y agregados; sin intervalos de confianza ni significación estadística.\"}"
+    },
+    {
+      "tipo": "reintento",
+      "nombre": "salida_texto",
+      "contenido": "La salida no coincide con la evidencia de las herramientas: [wer_incorrecto] B: WER declarado 0.19 y recalculado 0.0900. Corrígela usando solo los datos devueltos por las herramientas."
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "{\"estado\": \"comparacion\", \"corpus\": \"demo\", \"idioma\": \"es\", \"medidas\": [{\"sistema\": \"A\", \"fila\": \"demo:es:A\", \"s\": 8, \"d\": 2, \"i\": 1, \"n\": 100, \"wer\": 0.11}, {\"sistema\": \"B\", \"fila\": \"demo:es:B\", \"s\": 5, \"d\": 3, \"i\": 1, \"n\": 100, \"wer\": 0.19}], \"resultado\": \"ganador\", \"ganador\": \"B\", \"fuentes\": [\"demo:es:A\", \"demo:es:B\"], \"limitaciones\": \"Datos sintéticos y agregados; sin intervalos de confianza ni significación estadística.\"}"
+    }
+  ],
+  "salida": null,
+  "eventos_auditoria": [
+    {
+      "ts": 1793201041.1424706,
+      "origen": "pydantic_local",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    },
+    {
+      "ts": 1793201041.1446247,
+      "origen": "pydantic_local",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:es:A"
+      }
+    },
+    {
+      "ts": 1793201041.146803,
+      "origen": "pydantic_local",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:es:B"
+      }
+    }
+  ],
+  "extra": {}
+}

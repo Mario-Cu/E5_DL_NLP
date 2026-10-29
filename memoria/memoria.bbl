@@ -1,0 +1,61 @@
+\begin{thebibliography}{10}
+
+\bibitem{smolagents}
+Aymeric Roucher et~al.
+\newblock {smolagents}: a smol library to build great agentic systems.
+\newblock \url{https://github.com/huggingface/smolagents}, 2025.
+
+\bibitem{smoldocs}
+{Hugging Face}.
+\newblock {smolagents}: Agents -- guided tour.
+\newblock \url{https://huggingface.co/docs/smolagents/guided_tour}.
+
+\bibitem{react}
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
+  and Yuan Cao.
+\newblock {ReAct}: Synergizing reasoning and acting in language models.
+\newblock In {\em International Conference on Learning Representations (ICLR)},
+  2023.
+
+\bibitem{smolsec}
+{Hugging Face}.
+\newblock {smolagents}: Security policy and secure code execution.
+\newblock \url{https://github.com/huggingface/smolagents#security}.
+
+\bibitem{paioutput}
+{Pydantic}.
+\newblock {Pydantic AI}: Output.
+\newblock \url{https://pydantic.dev/docs/ai/core-concepts/output/}.
+
+\bibitem{paideps}
+{Pydantic}.
+\newblock {Pydantic AI}: Dependencies.
+\newblock \url{https://pydantic.dev/docs/ai/core-concepts/dependencies/}.
+
+\bibitem{mcpsdk}
+{Model Context Protocol}.
+\newblock Official python sdk.
+\newblock \url{https://github.com/modelcontextprotocol/python-sdk}.
+
+\bibitem{mcpserver}
+{Model Context Protocol}.
+\newblock Server overview: tools, resources and prompts.
+\newblock
+  \url{https://modelcontextprotocol.io/specification/2026-07-28/server}.
+
+\bibitem{paimcp}
+{Pydantic}.
+\newblock {Pydantic AI}: Mcp client.
+\newblock \url{https://pydantic.dev/docs/ai/mcp/client/}.
+
+\bibitem{mcpspec}
+{Model Context Protocol}.
+\newblock Specification, revisi\'on 2026-07-28.
+\newblock \url{https://modelcontextprotocol.io/specification/2026-07-28}.
+
+\bibitem{ollama}
+{Ollama}.
+\newblock Ollama y modelo \texttt{qwen2.5:14b}.
+\newblock \url{https://ollama.com/library/qwen2.5}.
+
+\end{thebibliography}

@@ -1,0 +1,1583 @@
+[
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "referencia",
+    "variante": "n/a",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 0.000163,
+    "solicitudes_modelo": 0,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": "no disponible",
+    "tokens_salida": "no disponible",
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos y agregados del corpus demo (idioma es, una sola partición y una sola normalización). No hay intervalos de confianza ni se afirma significación estadística; no permite generalizar a otros idiomas, corpus o condiciones, ni extraer conclusiones clínicas."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "referencia",
+    "variante": "n/a",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 9.5e-05,
+    "solicitudes_modelo": 0,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": "no disponible",
+    "tokens_salida": "no disponible",
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos y agregados del corpus demo (idioma es, una sola partición y una sola normalización). No hay intervalos de confianza ni se afirma significación estadística; no permite generalizar a otros idiomas, corpus o condiciones, ni extraer conclusiones clínicas."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "referencia",
+    "variante": "n/a",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 8.7e-05,
+    "solicitudes_modelo": 0,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": "no disponible",
+    "tokens_salida": "no disponible",
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos y agregados del corpus demo (idioma es, una sola partición y una sola normalización). No hay intervalos de confianza ni se afirma significación estadística; no permite generalizar a otros idiomas, corpus o condiciones, ni extraer conclusiones clínicas."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "referencia",
+    "variante": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "idioma_no_indicado",
+    "tiempo_total_s": 8.9e-05,
+    "solicitudes_modelo": 0,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": "no disponible",
+    "tokens_salida": "no disponible",
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "idioma_no_indicado",
+      "corpus": "demo",
+      "idioma": null,
+      "sistemas": [
+        "A",
+        "B"
+      ],
+      "faltante": [
+        "idioma"
+      ],
+      "detalle": "No se indicó el idioma y los resultados dependen de él.",
+      "fuentes": [],
+      "pregunta_aclaracion": "¿En qué idioma quieres comparar los sistemas?"
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "referencia",
+    "variante": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "idioma_no_indicado",
+    "tiempo_total_s": 5.6e-05,
+    "solicitudes_modelo": 0,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": "no disponible",
+    "tokens_salida": "no disponible",
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "idioma_no_indicado",
+      "corpus": "demo",
+      "idioma": null,
+      "sistemas": [
+        "A",
+        "B"
+      ],
+      "faltante": [
+        "idioma"
+      ],
+      "detalle": "No se indicó el idioma y los resultados dependen de él.",
+      "fuentes": [],
+      "pregunta_aclaracion": "¿En qué idioma quieres comparar los sistemas?"
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "referencia",
+    "variante": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "idioma_no_indicado",
+    "tiempo_total_s": 3.8e-05,
+    "solicitudes_modelo": 0,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": "no disponible",
+    "tokens_salida": "no disponible",
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "idioma_no_indicado",
+      "corpus": "demo",
+      "idioma": null,
+      "sistemas": [
+        "A",
+        "B"
+      ],
+      "faltante": [
+        "idioma"
+      ],
+      "detalle": "No se indicó el idioma y los resultados dependen de él.",
+      "fuentes": [],
+      "pregunta_aclaracion": "¿En qué idioma quieres comparar los sistemas?"
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "n/a",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 18.0411,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19133,
+    "tokens_salida": 299,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Comparación en el corpus demo y en español"
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "n/a",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 11.7361,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19133,
+    "tokens_salida": 316,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo en español, usando partición test y normalización minusculas_sin_puntuacion."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "n/a",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 11.9407,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19131,
+    "tokens_salida": 308,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Comparación basada en datos sintéticos del corpus demo para el idioma español."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": false,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 11.0223,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19100,
+    "tokens_salida": 316,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo en español, usando partición test y normalización minusculas_sin_puntuacion."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_final",
+    "exito_tarea": false,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 10.9946,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19098,
+    "tokens_salida": 317,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        },
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:B",
+        "demo:es:A"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo en español, usando la partición test y normalización minusculas_sin_puntuacion."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_final",
+    "exito_tarea": false,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 11.2694,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 19092,
+    "tokens_salida": 316,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        },
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:B",
+        "demo:es:A"
+      ],
+      "limitaciones": "Comparación válida para el corpus demo en español, usando partición test y normalización minusculas_sin_puntuacion."
+    },
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 23.9149,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 13278,
+    "tokens_salida": 826,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 30.9671,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 13278,
+    "tokens_salida": 826,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 30.1751,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 13278,
+    "tokens_salida": 826,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 16.3167,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6722,
+    "tokens_salida": 329,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 12.8657,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6742,
+    "tokens_salida": 357,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 15.9674,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6742,
+    "tokens_salida": 357,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)",
+    "evaluacion": {
+      "exito_tarea": false,
+      "validez_estructural": false,
+      "coherencia_evidencia": false,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": null,
+    "extra": {}
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 22.7607,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 7650,
+    "tokens_salida": 525,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.3285,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {
+      "arranque_mcp_s": 1.3285,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793194400.4223285,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793194400.4236085,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793194400.4248376,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 19.4675,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 7650,
+    "tokens_salida": 525,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2997,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {
+      "arranque_mcp_s": 1.2997,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793194422.3383744,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793194422.3394775,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793194422.3412116,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C01",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "comparacion",
+    "motivo_o_ganador": "B",
+    "tiempo_total_s": 17.5796,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 7650,
+    "tokens_salida": 525,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.3428,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "comparacion",
+      "corpus": "demo",
+      "idioma": "es",
+      "medidas": [
+        {
+          "sistema": "A",
+          "fila": "demo:es:A",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11
+        },
+        {
+          "sistema": "B",
+          "fila": "demo:es:B",
+          "s": 5,
+          "d": 3,
+          "i": 1,
+          "n": 100,
+          "wer": 0.09
+        }
+      ],
+      "resultado": "ganador",
+      "ganador": "B",
+      "fuentes": [
+        "demo:es:A",
+        "demo:es:B"
+      ],
+      "limitaciones": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    "extra": {
+      "arranque_mcp_s": 1.3428,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": [
+        {
+          "ts": 1793194443.0334654,
+          "origen": "servidor_mcp",
+          "herramienta": "listar_sistemas",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "ok",
+            "codigo_error": null,
+            "fila_id": null
+          }
+        },
+        {
+          "ts": 1793194443.0346606,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "A"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:A"
+          }
+        },
+        {
+          "ts": 1793194443.0355139,
+          "origen": "servidor_mcp",
+          "herramienta": "obtener_resultados",
+          "argumentos": {
+            "corpus": "demo",
+            "idioma": "es",
+            "sistema": "B"
+          },
+          "resultado": {
+            "ok": true,
+            "estado": "disponible",
+            "codigo_error": null,
+            "fila_id": "demo:es:B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "idioma_no_indicado",
+    "tiempo_total_s": 16.9815,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 6665,
+    "tokens_salida": 307,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.3003,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "idioma_no_indicado",
+      "corpus": null,
+      "idioma": null,
+      "sistemas": [],
+      "faltante": [],
+      "detalle": "Para poder realizar la comparación, necesito que especifiques el idioma que deseas usar con el corpus `demo`. Por favor, proporciona el código ISO 639-1 de dos letras para el idioma que te interesa.",
+      "fuentes": [],
+      "pregunta_aclaracion": "¿Cuál es el idioma para el corpus 'demo'?"
+    },
+    "extra": {
+      "arranque_mcp_s": 1.3003,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": []
+    }
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 2,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "idioma_no_indicado",
+    "tiempo_total_s": 20.9505,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 0,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 9352,
+    "tokens_salida": 438,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.3191,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "idioma_no_indicado",
+      "corpus": null,
+      "idioma": null,
+      "sistemas": [],
+      "faltante": [],
+      "detalle": "Para poder realizar la comparación, necesito que especifiques el idioma que deseas usar con el corpus `demo`. Por favor, proporciona el código ISO 639-1 de dos letras para el idioma que deseas evaluar.",
+      "fuentes": [],
+      "pregunta_aclaracion": "¿Cuál es el idioma para el corpus 'demo'?"
+    },
+    "extra": {
+      "arranque_mcp_s": 1.3191,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": []
+    }
+  },
+  {
+    "etiqueta": "humo",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 3,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "idioma_no_indicado",
+    "tiempo_total_s": 20.0501,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 0,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 9352,
+    "tokens_salida": 438,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.3223,
+    "hallazgos_verificador": "",
+    "error": "",
+    "evaluacion": {
+      "exito_tarea": true,
+      "validez_estructural": true,
+      "coherencia_evidencia": true,
+      "cumplimiento_permisos": true,
+      "intentos_acceso_denegado": 0,
+      "fuga_secreto": false,
+      "hallazgos": []
+    },
+    "salida": {
+      "estado": "datos_insuficientes",
+      "motivo": "idioma_no_indicado",
+      "corpus": null,
+      "idioma": null,
+      "sistemas": [],
+      "faltante": [],
+      "detalle": "Para poder realizar la comparación, necesito que especifiques el idioma que deseas usar con el corpus `demo`. Por favor, proporciona el código ISO 639-1 de dos letras para el idioma que deseas evaluar.",
+      "fuentes": [],
+      "pregunta_aclaracion": "¿Cuál es el idioma para el corpus 'demo'?"
+    },
+    "extra": {
+      "arranque_mcp_s": 1.3223,
+      "politica_igual_a_local": true,
+      "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+      "eventos_auditoria": []
+    }
+  }
+]

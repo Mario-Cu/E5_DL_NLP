@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+# resultados intermedios sin interés (se versionan solo los de resultados/real_*, resultados/mejora_* y resultados/integracion)
+resultados/tmp*/
+
+# LaTeX
+memoria/*.aux
+memoria/*.log
+memoria/*.out
+memoria/*.blg
+memoria/*.fls
+memoria/*.fdb_latexmk

@@ -1,0 +1,92 @@
+{
+  "fila": {
+    "etiqueta": "base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C06b",
+    "tipo": "complementario",
+    "repeticion": 1,
+    "terminacion": "fallo_infraestructura",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 20.5314,
+    "solicitudes_modelo": 1,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 2023,
+    "tokens_salida": 832,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2561,
+    "hallazgos_verificador": "",
+    "error": "ToolError: Error executing tool obtener_resultados: 3 validation errors for obtener_resultadosArguments\ncorpus\n  Field required [type=missing, input_value={'ok': True, 'result': [{... B', 'version': '1.0'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missi"
+  },
+  "pregunta": "Compara los sistemas A y B usando el corpus demo. Aclaración del usuario: el idioma es español.",
+  "traza": [
+    {
+      "tipo": "texto_modelo",
+      "contenido": " sourceMapping: corpus = 'demo', idioma = 'es', sistemas = ['A', 'B']\n"
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "ok": true,
+        "result": [
+          {
+            "disponible": true,
+            "id": "demo:es:A",
+            "nombre": "Sistema A",
+            "version": "1.0"
+          },
+          {
+            "disponible": true,
+            "id": "demo:es:B",
+            "nombre": "Sistema B",
+            "version": "1.0"
+          }
+        ]
+      }
+    }
+  ],
+  "salida": null,
+  "eventos_auditoria": [
+    {
+      "ts": 1793194952.6087518,
+      "origen": "servidor_mcp",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    }
+  ],
+  "extra": {
+    "arranque_mcp_s": 1.2561,
+    "politica_igual_a_local": true,
+    "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None"
+  }
+}

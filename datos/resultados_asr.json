@@ -1,0 +1,111 @@
+{
+  "version_datos": "1.0.0",
+  "descripcion": "Conjunto sintético para comparar ASR por idioma (tarea M5).",
+  "corpus": {
+    "demo": {
+      "descripcion": "Corpus sintético de demostración",
+      "version": "v1",
+      "autorizado": true
+    }
+  },
+  "sistemas": [
+    {
+      "id": "A",
+      "nombre": "Sistema A (sintético)"
+    },
+    {
+      "id": "B",
+      "nombre": "Sistema B (sintético)"
+    },
+    {
+      "id": "C",
+      "nombre": "Sistema C (sintético)"
+    },
+    {
+      "id": "D",
+      "nombre": "Sistema D (sintético, sin resultados)"
+    }
+  ],
+  "filas": [
+    {
+      "id": "demo:es:A",
+      "corpus": "demo",
+      "version": "v1",
+      "idioma": "es",
+      "sistema": "A",
+      "particion": "test",
+      "normalizacion": "minusculas_sin_puntuacion",
+      "referencia": "ref-es-v1",
+      "s": 8,
+      "d": 2,
+      "i": 1,
+      "n": 100,
+      "comentario_externo": null,
+      "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    {
+      "id": "demo:es:B",
+      "corpus": "demo",
+      "version": "v1",
+      "idioma": "es",
+      "sistema": "B",
+      "particion": "test",
+      "normalizacion": "minusculas_sin_puntuacion",
+      "referencia": "ref-es-v1",
+      "s": 5,
+      "d": 3,
+      "i": 1,
+      "n": 100,
+      "comentario_externo": null,
+      "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    {
+      "id": "demo:es:C",
+      "corpus": "demo",
+      "version": "v1",
+      "idioma": "es",
+      "sistema": "C",
+      "particion": "test",
+      "normalizacion": "minusculas_sin_puntuacion",
+      "referencia": "ref-es-v1",
+      "s": 0,
+      "d": 0,
+      "i": 150,
+      "n": 100,
+      "comentario_externo": null,
+      "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    {
+      "id": "demo:en:A",
+      "corpus": "demo",
+      "version": "v1",
+      "idioma": "en",
+      "sistema": "A",
+      "particion": "test",
+      "normalizacion": "minusculas_sin_puntuacion",
+      "referencia": "ref-en-v1",
+      "s": 4,
+      "d": 1,
+      "i": 1,
+      "n": 100,
+      "comentario_externo": null,
+      "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    },
+    {
+      "id": "demo:en:B",
+      "corpus": "demo",
+      "version": "v1",
+      "idioma": "en",
+      "sistema": "B",
+      "particion": "test",
+      "normalizacion": "minusculas_sin_puntuacion",
+      "referencia": "ref-en-v1",
+      "s": 3,
+      "d": 2,
+      "i": 1,
+      "n": 100,
+      "comentario_externo": null,
+      "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+    }
+  ]
+}

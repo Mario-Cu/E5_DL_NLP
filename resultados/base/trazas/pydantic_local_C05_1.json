@@ -1,0 +1,108 @@
+{
+  "fila": {
+    "etiqueta": "base",
+    "modo": "real",
+    "config": "pydantic_local",
+    "variante": "base",
+    "caso": "C05",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 10.1658,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 1,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 9421,
+    "tokens_salida": 416,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)"
+  },
+  "pregunta": "Compara los sistemas A y B en francés usando el corpus demo.",
+  "traza": [
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "fr"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "listar_sistemas",
+      "contenido": {
+        "ok": true,
+        "corpus": "demo",
+        "idioma": "fr",
+        "idioma_con_datos": false,
+        "sistemas": [
+          {
+            "sistema": "A",
+            "disponible": false,
+            "fila": null
+          },
+          {
+            "sistema": "B",
+            "disponible": false,
+            "fila": null
+          },
+          {
+            "sistema": "C",
+            "disponible": false,
+            "fila": null
+          },
+          {
+            "sistema": "D",
+            "disponible": false,
+            "fila": null
+          }
+        ],
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones",
+        "error": null
+      }
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "No hay resultados disponibles para los sistemas A y B en el corpus demo para el idioma francés. Ambos sistemas aparecen como no disponibles.\n\nPara continuar, necesitamos otro corpus o idioma donde haya resultados para estos sistemas. ¿Deseas comparar estos sistemas en otro idioma o corpus?\n\nRespuesta estructurada:\n```json\n{\n  \"estado\": \"datos_insuficientes\",\n  \"motivo\": \"sistema_sin_resultados\",\n  \"detalle\": \"No hay resultados disponibles para los sistemas A y B en el corpus demo para el idioma francés.\",\n  \"faltante\": [\"resultados demo:fr:A\", \"resultados demo:fr:B\"],\n  \"fuentes\": [],\n  \"pregunta_aclaracion\": \"¿Deseas comparar estos sistemas en otro idioma o corpus?\"\n}\n```"
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "{\n  \"estado\": \"datos_insuficientes\",\n  \"motivo\": \"sistema_sin_resultados\",\n  \"detalle\": \"No hay resultados disponibles para los sistemas A y B en el corpus demo para el idioma francés.\",\n  \"faltante\": [\"resultados demo:fr:A\", \"resultados demo:fr:B\"],\n  \"fuentes\": [],\n  \"pregunta_aclaracion\": \"¿Deseas comparar estos sistemas en otro idioma o corpus?\"\n}"
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "{\n  \"estado\": \"datos_insuficientes\",\n  \"motivo\": \"sistema_sin_resultados\",\n  \"detalle\": \"No hay resultados disponibles para los sistemas A y B en el corpus demo para el idioma francés.\",\n  \"faltante\": [\"resultados demo:fr:A\", \"resultados demo:fr:B\"],\n  \"fuentes\": [],\n  \"pregunta_aclaracion\": \"¿Deseas comparar estos sistemas en otro idioma o corpus?\"\n}"
+    }
+  ],
+  "salida": null,
+  "eventos_auditoria": [
+    {
+      "ts": 1793194686.2257767,
+      "origen": "pydantic_local",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "fr"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    }
+  ],
+  "extra": {}
+}

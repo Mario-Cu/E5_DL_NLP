@@ -1,0 +1,212 @@
+{
+  "fila": {
+    "etiqueta": "v3_verificada",
+    "modo": "real",
+    "config": "smolagents",
+    "variante": "verificada",
+    "modo_salida": "n/a",
+    "caso": "C07",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "filas_no_comparables",
+    "tiempo_total_s": 16.3576,
+    "solicitudes_modelo": 5,
+    "llamadas_herramienta": 3,
+    "reintentos": 2,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 25724,
+    "tokens_salida": 444,
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": ""
+  },
+  "pregunta": "Compara los sistemas A y B en español usando el corpus demo.",
+  "traza": [
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "contenido": "{\"ok\":true,\"corpus\":\"demo\",\"idioma\":\"es\",\"idioma_con_datos\":true,\"sistemas\":[{\"sistema\":\"A\",\"disponible\":true,\"fila\":\"demo:es:A\"},{\"sistema\":\"B\",\"disponible\":true,\"fila\":\"demo:es:B\"},{\"sistema\":\"C\",\"disponible\":true,\"fila\":\"demo:es:C\"},{\"sistema\":\"D\",\"disponible\":false,\"fila\":null}],\"procedencia\":\"datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones\",\"error\":null}"
+    },
+    {
+      "tipo": "reintento",
+      "contenido": "Error while parsing tool call from model output: The model output does not contain any JSON blob."
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "sistema": "B",
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "contenido": "{\"ok\":true,\"disponibilidad\":\"disponible\",\"corpus\":\"demo\",\"idioma\":\"es\",\"sistema\":\"A\",\"fila_id\":\"demo:es:A\",\"fila\":{\"id\":\"demo:es:A\",\"corpus\":\"demo\",\"version\":\"v1\",\"idioma\":\"es\",\"sistema\":\"A\",\"particion\":\"test\",\"normalizacion\":\"minusculas_sin_puntuacion\",\"referencia\":\"ref-es-v1\",\"s\":8,\"d\":2,\"i\":1,\"n\":100,\"wer\":0.11,\"comentario_externo\":null,\"procedencia\":\"Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones.\"},\"detalle\":null,\"error\":null,\"procedencia\":\"datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones\"}\n{\"ok\":true,\"disponibilidad\":\"disponible\",\"corpus\":\"demo\",\"idioma\":\"es\",\"sistema\":\"B\",\"fila_id\":\"demo:es:B\",\"fila\":{\"id\":\"demo:es:B\",\"corpus\":\"demo\",\"version\":\"v1\",\"idioma\":\"es\",\"sistema\":\"B\",\"particion\":\"dev\",\"normalizacion\":\"minusculas_sin_puntuacion\",\"referencia\":\"ref-es-v1\",\"s\":5,\"d\":3,\"i\":1,\"n\":100,\"wer\":0.09,\"comentario_externo\":null,\"procedencia\":\"Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones.\"},\"detalle\":null,\"error\":null,\"procedencia\":\"datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones\"}"
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_answer",
+      "argumentos": {
+        "answer": {
+          "corpus": "demo",
+          "estado": "comparacion",
+          "fuentes": [
+            "demo:es:A",
+            "demo:es:B"
+          ],
+          "ganador": "B",
+          "idioma": "es",
+          "limitaciones": "Los datos son sintéticos y agregados, sin intervalos de confianza: no afirmar significación estadística ni generalizar a otros idiomas o corpus.",
+          "medidas": [
+            {
+              "d": 2,
+              "fila": "demo:es:A",
+              "i": 1,
+              "n": 100,
+              "s": 8,
+              "sistema": "A",
+              "wer": 0.11
+            },
+            {
+              "d": 3,
+              "fila": "demo:es:B",
+              "i": 1,
+              "n": 100,
+              "s": 5,
+              "sistema": "B",
+              "wer": 0.09
+            }
+          ],
+          "resultado": "ganador"
+        }
+      }
+    },
+    {
+      "tipo": "reintento",
+      "contenido": "Check comprobar_coherencia failed with error: La respuesta no coincide con la evidencia de las herramientas: [filas_no_comparables] las filas difieren en particion: no debería haber comparación -> responde estado=datos_insuficientes, motivo=filas_no_comparables, corpus=demo, idioma=es, fuentes=['demo:es:A', 'demo:es:B'] y explica en detalle la diferencia. Corrígela usando solo los datos devueltos por las herramientas."
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_answer",
+      "argumentos": {
+        "answer": {
+          "corpus": "demo",
+          "detalle": "No se pueden comparar los sistemas A y B en español porque sus filas tienen particiones diferentes: A está en 'test' y B en 'dev'.",
+          "estado": "datos_insuficientes",
+          "fuentes": [
+            "demo:es:A",
+            "demo:es:B"
+          ],
+          "idioma": "es",
+          "motivo": "filas_no_comparables",
+          "sistemas": [
+            "A",
+            "B"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "observacion",
+      "contenido": "{'corpus': 'demo', 'detalle': \"No se pueden comparar los sistemas A y B en español porque sus filas tienen particiones diferentes: A está en 'test' y B en 'dev'.\", 'estado': 'datos_insuficientes', 'fuentes': ['demo:es:A', 'demo:es:B'], 'idioma': 'es', 'motivo': 'filas_no_comparables', 'sistemas': ['A', 'B']}"
+    }
+  ],
+  "salida": {
+    "estado": "datos_insuficientes",
+    "motivo": "filas_no_comparables",
+    "corpus": "demo",
+    "idioma": "es",
+    "sistemas": [
+      "A",
+      "B"
+    ],
+    "faltante": [],
+    "detalle": "No se pueden comparar los sistemas A y B en español porque sus filas tienen particiones diferentes: A está en 'test' y B en 'dev'.",
+    "fuentes": [
+      "demo:es:A",
+      "demo:es:B"
+    ],
+    "pregunta_aclaracion": null
+  },
+  "eventos_auditoria": [
+    {
+      "ts": 1793200071.0236626,
+      "origen": "smolagents",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    },
+    {
+      "ts": 1793200073.1338785,
+      "origen": "smolagents",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:es:A"
+      }
+    },
+    {
+      "ts": 1793200073.1340299,
+      "origen": "smolagents",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:es:B"
+      }
+    }
+  ],
+  "extra": {}
+}

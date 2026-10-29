@@ -1,0 +1,160 @@
+{
+  "fila": {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "T03",
+    "tipo": "transporte",
+    "repeticion": 1,
+    "terminacion": "fallo_transporte",
+    "exito_tarea": true,
+    "validez_estructural": null,
+    "coherencia_evidencia": null,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 14.8805,
+    "solicitudes_modelo": 6,
+    "llamadas_herramienta": 3,
+    "reintentos": 0,
+    "reintentos_transporte": 2,
+    "tokens_entrada": 13110,
+    "tokens_salida": 393,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2043,
+    "hallazgos_verificador": "",
+    "error": "MCPError: Connection closed"
+  },
+  "pregunta": "Compara los sistemas A y B en español usando el corpus demo. ¿Cuál reconoce mejor?",
+  "traza": [
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "listar_sistemas",
+      "contenido": {
+        "ok": true,
+        "corpus": "demo",
+        "idioma": "es",
+        "idioma_con_datos": true,
+        "sistemas": [
+          {
+            "sistema": "A",
+            "disponible": true,
+            "fila": "demo:es:A"
+          },
+          {
+            "sistema": "B",
+            "disponible": true,
+            "fila": "demo:es:B"
+          },
+          {
+            "sistema": "C",
+            "disponible": true,
+            "fila": "demo:es:C"
+          },
+          {
+            "sistema": "D",
+            "disponible": false,
+            "fila": null
+          }
+        ],
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones",
+        "error": null
+      }
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "Ahora que sé que los sistemas A y B tienen resultados para el corpus demo en español, procedo a compararlos.\n"
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "B"
+      }
+    }
+  ],
+  "salida": null,
+  "eventos_auditoria": [
+    {
+      "ts": 1793197323.8360574,
+      "origen": "servidor_mcp",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    },
+    {
+      "ts": 1793197328.5733724,
+      "origen": "servidor_mcp",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    },
+    {
+      "ts": 1793197333.944872,
+      "origen": "servidor_mcp",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    }
+  ],
+  "extra": {
+    "arranque_mcp_s": 1.2043,
+    "politica_igual_a_local": true,
+    "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None",
+    "fallos_transporte": [
+      "MCPError: Connection closed",
+      "MCPError: Connection closed",
+      "MCPError: Connection closed"
+    ]
+  }
+}

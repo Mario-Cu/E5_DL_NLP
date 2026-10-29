@@ -1,0 +1,52 @@
+{
+  "fila": {
+    "etiqueta": "integracion",
+    "modo": "doble",
+    "config": "referencia",
+    "variante": "n/a",
+    "modo_salida": "n/a",
+    "caso": "C06",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "idioma_no_indicado",
+    "tiempo_total_s": 2.7e-05,
+    "solicitudes_modelo": 0,
+    "llamadas_herramienta": 0,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": "no disponible",
+    "tokens_salida": "no disponible",
+    "coste": "no disponible",
+    "arranque_mcp_s": "",
+    "hallazgos_verificador": "",
+    "error": ""
+  },
+  "pregunta": "Compara los sistemas A y B usando el corpus demo.",
+  "traza": [],
+  "salida": {
+    "estado": "datos_insuficientes",
+    "motivo": "idioma_no_indicado",
+    "corpus": "demo",
+    "idioma": null,
+    "sistemas": [
+      "A",
+      "B"
+    ],
+    "faltante": [
+      "idioma"
+    ],
+    "detalle": "No se indicó el idioma y los resultados dependen de él.",
+    "fuentes": [],
+    "pregunta_aclaracion": "¿En qué idioma quieres comparar los sistemas?"
+  },
+  "eventos_auditoria": [],
+  "extra": {}
+}

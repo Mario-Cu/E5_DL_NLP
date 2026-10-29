@@ -1,0 +1,272 @@
+{
+  "fila": {
+    "etiqueta": "base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "caso": "C04",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_final",
+    "exito_tarea": true,
+    "validez_estructural": true,
+    "coherencia_evidencia": true,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "datos_insuficientes",
+    "motivo_o_ganador": "sistema_sin_resultados",
+    "tiempo_total_s": 8.6349,
+    "solicitudes_modelo": 3,
+    "llamadas_herramienta": 3,
+    "reintentos": 1,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 7290,
+    "tokens_salida": 293,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.2487,
+    "hallazgos_verificador": "",
+    "error": ""
+  },
+  "pregunta": "Compara los sistemas A y D en español usando el corpus demo.",
+  "traza": [
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "D"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "listar_sistemas",
+      "contenido": {
+        "ok": true,
+        "corpus": "demo",
+        "idioma": "es",
+        "idioma_con_datos": true,
+        "sistemas": [
+          {
+            "sistema": "A",
+            "disponible": true,
+            "fila": "demo:es:A"
+          },
+          {
+            "sistema": "B",
+            "disponible": true,
+            "fila": "demo:es:B"
+          },
+          {
+            "sistema": "C",
+            "disponible": true,
+            "fila": "demo:es:C"
+          },
+          {
+            "sistema": "D",
+            "disponible": false,
+            "fila": null
+          }
+        ],
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones",
+        "error": null
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "estado": "disponible",
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A",
+        "fila_id": "demo:es:A",
+        "fila": {
+          "id": "demo:es:A",
+          "corpus": "demo",
+          "version": "v1",
+          "idioma": "es",
+          "sistema": "A",
+          "particion": "test",
+          "normalizacion": "minusculas_sin_puntuacion",
+          "referencia": "ref-es-v1",
+          "s": 8,
+          "d": 2,
+          "i": 1,
+          "n": 100,
+          "wer": 0.11,
+          "comentario_externo": null,
+          "procedencia": "Datos sintéticos creados para la tarea M5 de Deep Learning aplicado al PLN (UVa 2026-27). Conteos agregados inventados; no proceden de ninguna evaluación real ni de grabaciones."
+        },
+        "detalle": null,
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "obtener_resultados",
+      "contenido": {
+        "ok": true,
+        "estado": "sin_resultados",
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "D",
+        "fila_id": null,
+        "fila": null,
+        "detalle": "No hay resultados de D en demo/es. No se inventan ni se sustituyen por ceros.",
+        "error": null,
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones"
+      }
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_result_DatosInsuficientes",
+      "argumentos": {
+        "detalle": "No hay resultados de D en demo/es. No se inventan ni se sustituyen por ceros.",
+        "fuentes": [
+          "demo:es:A"
+        ],
+        "corpus": "demo",
+        "idioma": "es",
+        "sistemas": [
+          "A",
+          "D"
+        ],
+        "estado": "sin_resultados",
+        "motivo": "sistema_sin_resultados"
+      }
+    },
+    {
+      "tipo": "reintento",
+      "nombre": "final_result_DatosInsuficientes",
+      "contenido": [
+        {
+          "type": "literal_error",
+          "loc": [
+            "estado"
+          ],
+          "msg": "Input should be 'datos_insuficientes'",
+          "input": "sin_resultados"
+        }
+      ]
+    },
+    {
+      "tipo": "llamada",
+      "destino": "salida_final",
+      "nombre": "final_result_DatosInsuficientes",
+      "argumentos": {
+        "motivo": "sistema_sin_resultados",
+        "sistemas": [
+          "A",
+          "D"
+        ],
+        "corpus": "demo",
+        "detalle": "No hay resultados de D en demo/es. No se inventan ni se sustituyen por ceros.",
+        "estado": "datos_insuficientes",
+        "fuentes": [
+          "demo:es:A"
+        ],
+        "idioma": "es"
+      }
+    },
+    {
+      "tipo": "resultado",
+      "nombre": "final_result_DatosInsuficientes",
+      "contenido": "Final result processed."
+    }
+  ],
+  "salida": {
+    "estado": "datos_insuficientes",
+    "motivo": "sistema_sin_resultados",
+    "corpus": "demo",
+    "idioma": "es",
+    "sistemas": [
+      "A",
+      "D"
+    ],
+    "faltante": [],
+    "detalle": "No hay resultados de D en demo/es. No se inventan ni se sustituyen por ceros.",
+    "fuentes": [
+      "demo:es:A"
+    ],
+    "pregunta_aclaracion": null
+  },
+  "eventos_auditoria": [
+    {
+      "ts": 1793194895.0419672,
+      "origen": "servidor_mcp",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    },
+    {
+      "ts": 1793194895.0430367,
+      "origen": "servidor_mcp",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "A"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "disponible",
+        "codigo_error": null,
+        "fila_id": "demo:es:A"
+      }
+    },
+    {
+      "ts": 1793194895.043935,
+      "origen": "servidor_mcp",
+      "herramienta": "obtener_resultados",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "es",
+        "sistema": "D"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "sin_resultados",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    }
+  ],
+  "extra": {
+    "arranque_mcp_s": 1.2487,
+    "politica_igual_a_local": true,
+    "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None"
+  }
+}

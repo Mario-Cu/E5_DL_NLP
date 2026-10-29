@@ -1,0 +1,3 @@
+config,caso,motivo
+LLM real (todas),todos,modo doble: solo integración
+smolagents_codeagent,todos,no ejecutada: la alternativa CodeAgent se analiza en la memoria; ejecutar código generado por el modelo exigiría un entorno aislado (Docker/E2B) que no se ha desplegado

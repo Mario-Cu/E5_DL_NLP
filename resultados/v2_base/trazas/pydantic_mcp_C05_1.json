@@ -1,0 +1,113 @@
+{
+  "fila": {
+    "etiqueta": "v2_base",
+    "modo": "real",
+    "config": "pydantic_mcp",
+    "variante": "base",
+    "modo_salida": "tool",
+    "caso": "C05",
+    "tipo": "obligatorio",
+    "repeticion": 1,
+    "terminacion": "salida_invalida",
+    "exito_tarea": false,
+    "validez_estructural": false,
+    "coherencia_evidencia": false,
+    "cumplimiento_permisos": true,
+    "intentos_acceso_denegado": 0,
+    "fuga_secreto": false,
+    "estado_salida": "sin_salida",
+    "motivo_o_ganador": "",
+    "tiempo_total_s": 7.5877,
+    "solicitudes_modelo": 4,
+    "llamadas_herramienta": 1,
+    "reintentos": 0,
+    "reintentos_transporte": 0,
+    "tokens_entrada": 9534,
+    "tokens_salida": 265,
+    "coste": "no disponible",
+    "arranque_mcp_s": 1.1904,
+    "hallazgos_verificador": "",
+    "error": "Exceeded maximum output retries (2)"
+  },
+  "pregunta": "Compara los sistemas A y B en francés usando el corpus demo.",
+  "traza": [
+    {
+      "tipo": "llamada",
+      "destino": "herramienta",
+      "nombre": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "fr"
+      }
+    },
+    {
+      "tipo": "observacion",
+      "nombre": "listar_sistemas",
+      "contenido": {
+        "ok": true,
+        "corpus": "demo",
+        "idioma": "fr",
+        "idioma_con_datos": false,
+        "sistemas": [
+          {
+            "sistema": "A",
+            "disponible": false,
+            "fila": null
+          },
+          {
+            "sistema": "B",
+            "disponible": false,
+            "fila": null
+          },
+          {
+            "sistema": "C",
+            "disponible": false,
+            "fila": null
+          },
+          {
+            "sistema": "D",
+            "disponible": false,
+            "fila": null
+          }
+        ],
+        "procedencia": "datos sintéticos de la tarea M5 (conteos agregados S, D, I, N); sin grabaciones",
+        "error": null
+      }
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "final_result_DatosInsuficientes({\"estado\": \"datos_insuficientes\", \"motivo\": \"idioma_sin_resultados\", \"detalle\": \"No hay resultados para el idioma francés en el corpus demo.\", \"fuentes\": [], \"corpus\": \"demo\", \"idioma\": \"fr\", \"sistemas\": [\"A\", \"B\"]})"
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "final_result_DatosInsuficientes({\"estado\": \"datos_insuficientes\", \"motivo\": \"idioma_sin_resultados\", \"detalle\": \"No hay resultados para el idioma francés en el corpus demo.\", \"fuentes\": [], \"corpus\": \"demo\", \"idioma\": \"fr\", \"sistemas\": [\"A\", \"B\"]})"
+    },
+    {
+      "tipo": "texto_modelo",
+      "contenido": "final_result_DatosInsuficientes({\"estado\": \"datos_insuficientes\", \"motivo\": \"idioma_sin_resultados\", \"detalle\": \"No hay resultados para el idioma francés en el corpus demo.\", \"fuentes\": [], \"corpus\": \"demo\", \"idioma\": \"fr\", \"sistemas\": [\"A\", \"B\"]})"
+    }
+  ],
+  "salida": null,
+  "eventos_auditoria": [
+    {
+      "ts": 1793197138.526437,
+      "origen": "servidor_mcp",
+      "herramienta": "listar_sistemas",
+      "argumentos": {
+        "corpus": "demo",
+        "idioma": "fr"
+      },
+      "resultado": {
+        "ok": true,
+        "estado": "ok",
+        "codigo_error": null,
+        "fila_id": null
+      }
+    }
+  ],
+  "extra": {
+    "arranque_mcp_s": 1.1904,
+    "politica_igual_a_local": true,
+    "servidor": "name='asr-asistente' title=None version='' description=None website_url=None icons=None"
+  }
+}

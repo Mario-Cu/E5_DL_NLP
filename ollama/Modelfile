@@ -1,0 +1,6 @@
+# Mismo modelo (qwen2.5:14b) con el contexto fijado. Necesario porque el endpoint compatible con OpenAI
+# de Ollama no permite elegir num_ctx por petición y el valor por defecto (4096) puede truncar el prompt.
+FROM qwen2.5:14b
+PARAMETER num_ctx 8192
+PARAMETER temperature 0.2
+PARAMETER seed 7

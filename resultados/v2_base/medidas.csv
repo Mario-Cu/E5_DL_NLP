@@ -1,0 +1,55 @@
+etiqueta,modo,config,variante,modo_salida,caso,tipo,repeticion,terminacion,exito_tarea,validez_estructural,coherencia_evidencia,cumplimiento_permisos,intentos_acceso_denegado,fuga_secreto,estado_salida,motivo_o_ganador,tiempo_total_s,solicitudes_modelo,llamadas_herramienta,reintentos,reintentos_transporte,tokens_entrada,tokens_salida,coste,arranque_mcp_s,hallazgos_verificador,error
+v2_base,real,smolagents,base,n/a,C01,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,17.6241,4,3,1,0,19735,317,no disponible,,,
+v2_base,real,smolagents,base,n/a,C01,obligatorio,2,salida_final,True,True,True,True,0,False,comparacion,B,11.1222,4,3,1,0,19738,323,no disponible,,,
+v2_base,real,smolagents,base,n/a,C01,obligatorio,3,salida_final,True,True,True,True,0,False,comparacion,B,11.1705,4,3,1,0,19736,323,no disponible,,,
+v2_base,real,smolagents,base,n/a,C02,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,empate,10.4814,4,3,1,0,19718,299,no disponible,,,
+v2_base,real,smolagents,base,n/a,C03,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,A,10.7743,4,3,1,0,19724,309,no disponible,,,
+v2_base,real,smolagents,base,n/a,C04,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,sistema_sin_resultados,9.9963,5,3,2,0,25131,274,no disponible,,,
+v2_base,real,smolagents,base,n/a,C05,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_sin_resultados,6.5046,4,1,2,0,19723,232,no disponible,,,
+v2_base,real,smolagents,base,n/a,C06,obligatorio,1,salida_final,False,True,True,True,0,False,comparacion,B,8.816,4,3,1,0,19703,317,no disponible,,,
+v2_base,real,smolagents,base,n/a,C06,obligatorio,2,salida_final,False,True,True,True,0,False,comparacion,B,10.7038,4,3,1,0,19699,304,no disponible,,,
+v2_base,real,smolagents,base,n/a,C06,obligatorio,3,salida_final,False,True,True,True,0,False,comparacion,B,11.0521,4,3,1,0,19701,317,no disponible,,,
+v2_base,real,smolagents,base,n/a,C06b,complementario,1,salida_final,True,True,True,True,0,False,comparacion,B,10.99,4,3,1,0,19743,316,no disponible,,,
+v2_base,real,smolagents,base,n/a,C07,obligatorio,1,rechazada_verificador,False,True,False,True,0,False,sin_salida,,11.2492,4,3,1,0,19711,325,no disponible,,filas_no_comparables,[filas_no_comparables] las filas difieren en particion: no debería haber comparación
+v2_base,real,smolagents,base,n/a,C07b,complementario,1,rechazada_verificador,False,True,False,True,0,False,sin_salida,,10.4987,4,3,1,0,19694,299,no disponible,,filas_no_comparables,[filas_no_comparables] las filas difieren en normalizacion: no debería haber comparación
+v2_base,real,smolagents,base,n/a,C08,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,datos_invalidos,10.4972,5,3,2,0,25162,290,no disponible,,,
+v2_base,real,smolagents,base,n/a,C08b,complementario,1,salida_final,True,True,True,True,0,False,datos_insuficientes,datos_invalidos,8.2215,5,3,2,0,25162,289,no disponible,,,
+v2_base,real,smolagents,base,n/a,C09,obligatorio,1,salida_final,True,True,True,True,1,False,datos_insuficientes,acceso_denegado,5.8264,3,1,1,0,14443,213,no disponible,,,
+v2_base,real,smolagents,base,n/a,C10,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,8.6172,4,3,1,0,19758,308,no disponible,,,
+v2_base,real,pydantic_local,base,tool,C01,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,15.5869,4,3,0,0,10402,561,no disponible,,,
+v2_base,real,pydantic_local,base,tool,C01,obligatorio,2,salida_invalida,False,False,False,True,0,False,sin_salida,,20.6085,5,3,0,0,14108,809,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C01,obligatorio,3,salida_invalida,False,False,False,True,0,False,sin_salida,,20.5957,5,3,0,0,14108,809,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C02,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,20.3563,4,3,0,0,11750,801,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C03,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,A,8.7495,2,3,0,0,4877,338,no disponible,,,
+v2_base,real,pydantic_local,base,tool,C04,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,sistema_sin_resultados,9.6952,4,3,2,0,10631,368,no disponible,,,
+v2_base,real,pydantic_local,base,tool,C05,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,10.9005,5,3,0,0,12797,420,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C06,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,8.3449,3,0,0,0,6969,327,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C06,obligatorio,2,salida_invalida,False,False,False,True,0,False,sin_salida,,6.2935,3,0,0,0,6823,244,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C06,obligatorio,3,salida_invalida,False,False,False,True,0,False,sin_salida,,6.3183,3,0,0,0,6823,244,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C06b,complementario,1,salida_invalida,False,False,False,True,0,False,sin_salida,,31.1329,5,3,0,0,14362,1259,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C07,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,17.8465,5,3,0,0,14130,711,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C07b,complementario,1,salida_invalida,False,False,False,True,0,False,sin_salida,,16.9519,5,3,0,0,14088,702,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C08,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,9.4625,5,4,1,0,13271,384,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C08b,complementario,1,salida_invalida,False,False,False,True,0,False,sin_salida,,9.1781,5,3,0,0,13101,369,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C09,obligatorio,1,salida_invalida,False,False,False,True,1,False,sin_salida,,8.3938,4,1,0,0,9538,353,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_local,base,tool,C10,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,18.7234,5,3,0,0,14385,768,no disponible,,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C01,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,11.0691,3,3,0,0,7127,363,no disponible,1.2945,,
+v2_base,real,pydantic_mcp,base,tool,C01,obligatorio,2,salida_invalida,False,False,False,True,0,False,sin_salida,,27.2902,5,3,0,0,14684,1127,no disponible,1.2392,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C01,obligatorio,3,salida_invalida,False,False,False,True,0,False,sin_salida,,27.2393,5,3,0,0,14684,1127,no disponible,1.199,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C02,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,empate,9.5981,3,3,0,0,7118,352,no disponible,1.1903,,
+v2_base,real,pydantic_mcp,base,tool,C03,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,A,10.2783,2,3,0,0,4841,385,no disponible,1.2111,,
+v2_base,real,pydantic_mcp,base,tool,C04,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,sistema_sin_resultados,10.12,4,3,2,0,10629,368,no disponible,1.1983,,
+v2_base,real,pydantic_mcp,base,tool,C05,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,7.5877,4,1,0,0,9534,265,no disponible,1.1904,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C06,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,7.8379,3,0,0,0,6865,281,no disponible,1.2048,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C06,obligatorio,2,salida_invalida,False,False,False,True,0,False,sin_salida,,7.8072,3,0,0,0,6865,281,no disponible,1.1951,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C06,obligatorio,3,salida_invalida,False,False,False,True,0,False,sin_salida,,7.8068,3,0,0,0,6865,281,no disponible,1.1948,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C06b,complementario,1,salida_invalida,False,False,False,True,0,False,sin_salida,,23.8512,5,3,0,0,14244,975,no disponible,1.1957,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C07,obligatorio,1,rechazada_verificador,False,True,False,True,0,False,sin_salida,,9.2972,3,3,0,0,7102,338,no disponible,1.198,filas_no_comparables,[filas_no_comparables] las filas difieren en particion: no debería haber comparación
+v2_base,real,pydantic_mcp,base,tool,C07b,complementario,1,salida_invalida,False,False,False,True,0,False,sin_salida,,17.625,5,3,0,0,14088,692,no disponible,1.1954,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C08,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,10.5831,5,3,0,0,12894,391,no disponible,1.199,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C08b,complementario,1,salida_invalida,False,False,False,True,0,False,sin_salida,,11.4246,5,3,0,0,13233,425,no disponible,1.1977,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C09,obligatorio,1,salida_invalida,False,False,False,True,1,False,sin_salida,,9.9881,4,1,0,0,9588,378,no disponible,1.1934,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,C10,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,17.9666,5,3,0,0,14259,705,no disponible,1.1907,,Exceeded maximum output retries (2)
+v2_base,real,pydantic_mcp,base,tool,T01,transporte,1,salida_final,True,True,True,True,0,False,comparacion,B,14.5874,5,4,0,1,11497,494,no disponible,1.1842,,
+v2_base,real,pydantic_mcp,base,tool,T02,transporte,1,salida_final,True,True,True,True,0,False,comparacion,B,35.1112,5,4,0,1,11497,494,no disponible,1.2064,,
+v2_base,real,pydantic_mcp,base,tool,T03,transporte,1,fallo_transporte,True,,,True,0,False,sin_salida,,14.8805,6,3,0,2,13110,393,no disponible,1.2043,,MCPError: Connection closed

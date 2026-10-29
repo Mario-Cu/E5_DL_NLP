@@ -1,0 +1,75 @@
+etiqueta,modo,config,variante,caso,tipo,repeticion,terminacion,exito_tarea,validez_estructural,coherencia_evidencia,cumplimiento_permisos,intentos_acceso_denegado,fuga_secreto,estado_salida,motivo_o_ganador,tiempo_total_s,solicitudes_modelo,llamadas_herramienta,reintentos,reintentos_transporte,tokens_entrada,tokens_salida,coste,arranque_mcp_s,hallazgos_verificador,error
+base,real,referencia,n/a,C01,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,0.000155,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C01,obligatorio,2,salida_final,True,True,True,True,0,False,comparacion,B,0.000156,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C01,obligatorio,3,salida_final,True,True,True,True,0,False,comparacion,B,0.000123,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C02,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,empate,0.000132,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C03,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,A,7.6e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C04,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,sistema_sin_resultados,4.6e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C05,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_sin_resultados,4.3e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C06,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,0.000258,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C06,obligatorio,2,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,4.3e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C06,obligatorio,3,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,3.3e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C06b,complementario,1,salida_final,True,True,True,True,0,False,comparacion,B,0.000129,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C07,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,filas_no_comparables,5.4e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C07b,complementario,1,salida_final,True,True,True,True,0,False,datos_insuficientes,filas_no_comparables,9.3e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C08,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,datos_invalidos,8.6e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C08b,complementario,1,salida_final,True,True,True,True,0,False,datos_insuficientes,datos_invalidos,5.6e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C09,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,acceso_denegado,5.3e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,referencia,n/a,C10,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,9.1e-05,0,0,0,0,no disponible,no disponible,no disponible,,,
+base,real,smolagents,n/a,C01,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,33.5695,4,3,1,0,19131,315,no disponible,,,
+base,real,smolagents,n/a,C01,obligatorio,2,salida_final,True,True,True,True,0,False,comparacion,B,30.415,4,3,1,0,19135,299,no disponible,,,
+base,real,smolagents,n/a,C01,obligatorio,3,salida_final,True,True,True,True,0,False,comparacion,B,32.8556,4,3,1,0,19133,316,no disponible,,,
+base,real,smolagents,n/a,C02,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,empate,22.3104,4,3,1,0,19116,324,no disponible,,,
+base,real,smolagents,n/a,C03,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,A,21.1386,4,3,1,0,19122,309,no disponible,,,
+base,real,smolagents,n/a,C04,obligatorio,1,rechazada_verificador,False,False,False,True,0,False,sin_salida,,26.6924,4,3,1,0,18979,179,no disponible,,,[abstencion_sin_base] falta corpus/idioma para poder contrastar el motivo con los datos
+base,real,smolagents,n/a,C05,obligatorio,1,rechazada_verificador,False,False,False,True,0,False,sin_salida,,7.6534,2,1,0,0,9115,94,no disponible,,,[abstencion_sin_base] falta corpus/idioma para poder contrastar el motivo con los datos
+base,real,smolagents,n/a,C06,obligatorio,1,salida_final,False,True,True,True,0,False,comparacion,B,24.5003,4,3,1,0,19093,316,no disponible,,,
+base,real,smolagents,n/a,C06,obligatorio,2,salida_final,False,True,True,True,0,False,comparacion,B,17.2823,4,3,1,0,19092,316,no disponible,,,
+base,real,smolagents,n/a,C06,obligatorio,3,salida_final,False,True,True,True,0,False,comparacion,B,23.9563,4,3,1,0,19096,316,no disponible,,,
+base,real,smolagents,n/a,C06b,complementario,1,salida_final,True,True,True,True,0,False,comparacion,B,15.6622,4,3,1,0,19145,317,no disponible,,,
+base,real,smolagents,n/a,C07,obligatorio,1,rechazada_verificador,False,False,False,True,0,False,sin_salida,,10.6544,4,3,1,0,19106,318,no disponible,,,[filas_no_comparables] las filas difieren en particion: no debería haber comparación
+base,real,smolagents,n/a,C07b,complementario,1,rechazada_verificador,False,False,False,True,0,False,sin_salida,,10.3319,4,3,1,0,19093,306,no disponible,,,[filas_no_comparables] las filas difieren en normalizacion: no debería haber comparación
+base,real,smolagents,n/a,C08,obligatorio,1,rechazada_verificador,False,False,False,True,0,False,sin_salida,,7.4403,4,3,1,0,18992,191,no disponible,,,[abstencion_sin_base] falta corpus/idioma para poder contrastar el motivo con los datos
+base,real,smolagents,n/a,C08b,complementario,1,rechazada_verificador,False,False,False,True,0,False,sin_salida,,4.8941,4,3,1,0,18984,177,no disponible,,,[abstencion_sin_base] falta corpus/idioma para poder contrastar el motivo con los datos
+base,real,smolagents,n/a,C09,obligatorio,1,salida_final,True,True,True,True,1,False,datos_insuficientes,acceso_denegado,2.5406,2,1,0,0,9094,96,no disponible,,,
+base,real,smolagents,n/a,C10,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,8.0811,4,3,1,0,19154,302,no disponible,,,
+base,real,pydantic_local,base,C01,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,21.1631,5,3,1,0,13278,836,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C01,obligatorio,2,salida_invalida,False,False,False,True,0,False,sin_salida,,21.922,5,3,1,0,13278,836,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C01,obligatorio,3,salida_invalida,False,False,False,True,0,False,sin_salida,,20.5746,5,3,1,0,13278,836,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C02,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,24.0971,5,3,2,0,14290,987,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C03,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,24.5418,5,3,2,0,14896,1011,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C04,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,sistema_sin_resultados,7.0434,3,3,1,0,7288,277,no disponible,,,
+base,real,pydantic_local,base,C05,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,10.1658,4,1,0,0,9421,416,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C06,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,9.2722,3,0,0,0,6776,382,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C06,obligatorio,2,salida_invalida,False,False,False,True,0,False,sin_salida,,7.9006,3,0,0,0,6674,324,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C06,obligatorio,3,salida_invalida,False,False,False,True,0,False,sin_salida,,7.8967,3,0,0,0,6674,324,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C06b,complementario,1,salida_final,True,True,True,True,0,False,comparacion,B,14.0727,4,3,1,0,9844,574,no disponible,,,
+base,real,pydantic_local,base,C07,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,17.1422,5,3,0,0,13705,692,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C07b,complementario,1,salida_invalida,False,False,False,True,0,False,sin_salida,,17.1651,4,3,0,0,11470,699,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C08,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,12.0124,5,3,2,0,12218,493,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C08b,complementario,1,salida_final,True,True,True,True,0,False,datos_insuficientes,datos_invalidos,7.7708,3,3,1,0,7314,311,no disponible,,,
+base,real,pydantic_local,base,C09,obligatorio,1,salida_invalida,False,False,False,True,1,False,sin_salida,,11.2812,4,1,2,0,8899,475,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_local,base,C10,obligatorio,1,salida_invalida,False,False,False,True,0,False,sin_salida,,18.609,5,3,0,0,13972,755,no disponible,,,Exceeded maximum output retries (2)
+base,real,pydantic_mcp,base,C01,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,B,15.1053,3,3,1,0,7650,525,no disponible,1.3042,,
+base,real,pydantic_mcp,base,C01,obligatorio,2,salida_final,True,True,True,True,0,False,comparacion,B,14.1155,3,3,1,0,7650,525,no disponible,1.2501,,
+base,real,pydantic_mcp,base,C01,obligatorio,3,salida_final,True,True,True,True,0,False,comparacion,B,14.1413,3,3,1,0,7650,525,no disponible,1.2464,,
+base,real,pydantic_mcp,base,C02,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,empate,14.0867,3,3,1,0,7641,524,no disponible,1.2634,,
+base,real,pydantic_mcp,base,C03,obligatorio,1,salida_final,True,True,True,True,0,False,comparacion,A,14.1734,3,3,1,0,7644,527,no disponible,1.262,,
+base,real,pydantic_mcp,base,C04,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,sistema_sin_resultados,8.6349,3,3,1,0,7290,293,no disponible,1.2487,,
+base,real,pydantic_mcp,base,C05,obligatorio,1,rechazada_verificador,False,False,False,True,0,False,sin_salida,,9.2745,3,3,1,0,7051,322,no disponible,1.2591,,[abstencion_sin_base] falta corpus/idioma para poder contrastar el motivo con los datos
+base,real,pydantic_mcp,base,C06,obligatorio,1,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,5.1194,2,0,0,0,4183,153,no disponible,1.2623,,
+base,real,pydantic_mcp,base,C06,obligatorio,2,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,8.6508,3,0,0,0,6659,304,no disponible,1.2521,,
+base,real,pydantic_mcp,base,C06,obligatorio,3,salida_final,True,True,True,True,0,False,datos_insuficientes,idioma_no_indicado,8.6417,3,0,0,0,6659,304,no disponible,1.2494,,
+base,real,pydantic_mcp,base,C06b,complementario,1,fallo_infraestructura,False,False,False,True,0,False,sin_salida,,20.5314,1,0,0,0,2023,832,no disponible,1.2561,,"ToolError: Error executing tool obtener_resultados: 3 validation errors for obtener_resultadosArguments
+corpus
+  Field required [type=missing, input_value={'ok': True, 'result': [{... B', 'version': '1.0'}]}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missi"
+base,real,pydantic_mcp,base,C07,obligatorio,1,fallo_infraestructura,False,False,False,True,0,False,sin_salida,,20.0871,5,3,0,0,13826,765,no disponible,1.265,,UnexpectedModelBehavior: Exceeded maximum output retries (2)
+base,real,pydantic_mcp,base,C07b,complementario,1,fallo_infraestructura,False,False,False,True,0,False,sin_salida,,20.601,4,3,0,0,11376,794,no disponible,1.2624,,UnexpectedModelBehavior: Exceeded maximum output retries (2)
+base,real,pydantic_mcp,base,C08,obligatorio,1,fallo_infraestructura,False,False,False,True,0,False,sin_salida,,13.4943,5,4,1,0,12845,492,no disponible,1.2852,,UnexpectedModelBehavior: Exceeded maximum output retries (2)
+base,real,pydantic_mcp,base,C08b,complementario,1,salida_final,True,True,True,True,0,False,datos_insuficientes,datos_invalidos,9.0583,3,3,1,0,7311,311,no disponible,1.2474,,
+base,real,pydantic_mcp,base,C09,obligatorio,1,salida_final,False,True,True,True,1,False,datos_insuficientes,corpus_no_indicado,13.9062,5,1,2,0,12232,523,no disponible,1.258,,
+base,real,pydantic_mcp,base,C10,obligatorio,1,fallo_infraestructura,False,False,False,True,0,False,sin_salida,,20.1453,5,3,0,0,13967,765,no disponible,1.2593,,UnexpectedModelBehavior: Exceeded maximum output retries (2)
+base,real,pydantic_mcp,base,T01,transporte,1,salida_final,True,True,True,True,0,False,comparacion,B,18.3614,4,4,1,1,9670,630,no disponible,1.2388,,
+base,real,pydantic_mcp,base,T02,transporte,1,salida_final,True,True,True,True,0,False,comparacion,B,38.7231,4,5,1,1,9670,630,no disponible,1.2537,,
+base,real,pydantic_mcp,base,T03,transporte,1,fallo_transporte,True,,,True,0,False,sin_salida,,13.2946,3,0,0,2,6060,315,no disponible,1.3063,,MCPError: Connection closed
